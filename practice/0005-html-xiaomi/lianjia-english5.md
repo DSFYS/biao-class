@@ -1,3 +1,4 @@
+```
 row header
     row navigation-bar
         col left
@@ -75,3 +76,4 @@ row footer
         row classification
         row details
     row other
+```
