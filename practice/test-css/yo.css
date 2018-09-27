@@ -1,0 +1,99 @@
+@import url(main.css);
+/* .button{
+    color: tomato;
+}
+div button{
+    color: pink;
+    background-color: gray;
+    border: 10px solid blue'
+} */
+/* p{font-size: 200%;} */
+/* div{
+    border: 1px solid pink;
+}
+span{
+    color: green;
+}
+p{
+    background-color: red;    
+}
+a{
+    font-size: 200%;
+}
+.solid{
+    border: 1px solid black;
+}
+.dashed{
+    border: 13px dashed black;
+} */
+/* .blue{
+    color: blue;
+}
+.blue-border{
+    border: 2px solid blue;
+} */
+/* [href]{
+    color: aquamarine
+}
+[href="https://www.bilibili.com"]{
+    color:pink;
+}
+[href="https://www.baidu.com"]{
+    color: blue;
+}
+[href="https://www.taobao.com"]{
+    color: red;
+} */
+/* [href*=".com"]{
+    color: pink;
+}
+[href^="come"]{
+    color: aqua;
+}
+[href$='bili']{
+    color:#ee0c57;
+} */
+/* a,.b{
+    color:pink;
+} */
+/* div p{
+    color: antiquewhite;
+}
+p span{
+    color: aquamarine;
+} */
+/* .b+span{
+    color: blueviolet;
+}
+.b~span{
+    color: brown;
+} */
+/* p:empty{
+    outline: 1px solid red;
+} */
+/* div:not(a){
+    color: burlywood;
+} */
+/* a{
+    color: black;
+}
+a.A[href=""]{
+    color: lightgoldenrodyellow;
+}
+a.C[href="https://www.baidu.com"]{
+    color: brown;
+} */
+/* li:last-of-type::before{
+    content: "Y"
+}
+li:first-of-type::after{
+    content: "yuan"
+} */
+input::placeholder{
+    color: red;
+    font-weight: bold;
+
+}
+p::selection{
+    background: red;
+}
