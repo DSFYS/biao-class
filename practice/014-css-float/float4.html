@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            background: rgba(021, 051, 172, .2);
+        }
+
+        .row::after,
+        .row::before {
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+
+        .padding {
+            padding: 20px;
+        }
+
+        .col {
+            box-sizing: border-box;
+            width: 50%;
+            float: left;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col ">
+            <div class="col ">
+                <div class="col">a</div>
+                <div class="col">a</div>
+            </div>
+            <div class="col ">
+                <div class="col">a</div>
+                <div class="col">a</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
