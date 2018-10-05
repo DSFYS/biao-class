@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .row::after,.row::before{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .col{
+            float: left
+        }
+        .col-23 {
+            width: 95.83333333333334%;
+        }
+
+        .col-22 {
+            width: 91.66666666666667%;
+        }
+
+        .col-21 {
+            width: 87.5%;
+        }
+
+        .col-20 {
+            width: 83.33333333333334%;
+        }
+
+        .col-19 {
+            width: 79.16666666666667%;
+        }
+
+        .col-18 {
+            width: 75%;
+        }
+
+        .col-17 {
+            width: 70.83333333333334%;
+        }
+
+        .col-16 {
+            width: 66.66666666666667%;
+        }
+
+        .col-15 {
+            width: 62.50000000000001%;
+        }
+
+        .col-14 {
+            width: 58.333333333333336%;
+        }
+
+        .col-13 {
+            width: 54.16666666666667%;
+        }
+
+        .col-12 {
+            width: 50%;
+        }
+
+        .col-11 {
+            width: 45.833333333333336%;
+        }
+
+        .col-10 {
+            width: 41.66666666666667%;
+        }
+
+        .col-9 {
+            width: 37.5%;
+        }
+
+        .col-8 {
+            width: 33.333333333333336%;
+        }
+
+        .col-7 {
+            width: 29.166666666666668%;
+        }
+
+        .col-6 {
+            width: 25%;
+        }
+
+        .col-5 {
+            width: 20.833333333333336%;
+        }
+
+        .col-4 {
+            width: 16.666666666666668%;
+        }
+
+        .col-3 {
+            width: 12.5%;
+        }
+
+        .col-2 {
+            width: 8.333333333333334%;
+        }
+
+        .col-1 {
+            width: 4.166666666666667%;
+        }
+        .nav.gloabl{
+            padding-left: .7em;
+            padding-right: 0.7em;
+            background-color: #444444;
+        }
+        a{
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        .nav.gloabl a{
+            
+            font-size: 13px;
+            display: inline-block;
+            padding: .5em .7em;
+            color: #cccccc;
+        }
+        .nav.gloabl a:hover{
+            color: #ffffff;
+        }
+        .right{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="row nav gloabl" style="background: #444444;">
+        <div class="col col-16">
+            <a href="#">豆瓣</a>
+            <a href="#">读书</a>
+            <a href="#">电影</a>
+            <a href="#">音乐</a>
+            <a href="#">同城</a>
+            <a href="#">小组</a>
+            <a href="#">阅读</a>
+            <a href="#">FM</a>
+            <a href="#">时间</a>
+            <a href="#">豆品</a>
+            <a href="#">更多</a>
+        </div>
+        <div class="col col-8 right">
+            <a href="#">下载豆瓣客户端</a>
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background: #cccccc;
+            margin: 0;
+            background: url("v2-37c2e07e0b3366ea732ba1762ff07d74_b.gif");
+            background-size: 100% 
+        }
+
+        .row::after,
+        .row::before {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .col {
+            float: left
+        }
+
+        .col-23 {
+            width: 95.83333333333334%;
+        }
+
+        .col-22 {
+            width: 91.66666666666667%;
+        }
+
+        .col-21 {
+            width: 87.5%;
+        }
+
+        .col-20 {
+            width: 83.33333333333334%;
+        }
+
+        .col-19 {
+            width: 79.16666666666667%;
+        }
+
+        .col-18 {
+            width: 75%;
+        }
+
+        .col-17 {
+            width: 70.83333333333334%;
+        }
+
+        .col-16 {
+            width: 66.66666666666667%;
+        }
+
+        .col-15 {
+            width: 62.50000000000001%;
+        }
+
+        .col-14 {
+            width: 58.333333333333336%;
+        }
+
+        .col-13 {
+            width: 54.16666666666667%;
+        }
+
+        .col-12 {
+            width: 50%;
+        }
+
+        .col-11 {
+            width: 45.833333333333336%;
+        }
+
+        .col-10 {
+            width: 41.66666666666667%;
+        }
+
+        .col-9 {
+            width: 37.5%;
+        }
+
+        .col-8 {
+            width: 33.333333333333336%;
+        }
+
+        .col-7 {
+            width: 29.166666666666668%;
+        }
+
+        .col-6 {
+            width: 25%;
+        }
+
+        .col-5 {
+            width: 20.833333333333336%;
+        }
+
+        .col-4 {
+            width: 16.666666666666668%;
+        }
+
+        .col-3 {
+            width: 12.5%;
+        }
+
+        .col-2 {
+            width: 8.333333333333334%;
+        }
+
+        .col-1 {
+            width: 4.166666666666667%;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .nav {
+            padding-left: 50px;
+            padding-right: 30px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        #logo {
+            display: inline-block;
+            width: 100px;
+            height: 55px;
+            background: url("spriteV2_new.png");
+        }
+
+        .location {
+            color: white;
+            font-size: 2px;
+            position: relative;
+            bottom: 13px;
+            background: rgba(0, 0, 0, 0.25);
+            border: solid rgba(0, 0, 0, 0);
+            border-radius: 30px;
+            padding: 3px;
+        }
+        .col.col-7{
+            position: relative;
+            top: 10px;
+        }
+
+        .col.col-17.right {
+            position: relative;
+            top: 10px;
+        }
+        
+        .col.col-17.right div:nth-child(2){
+            font-weight: 800;
+        }
+
+        .login {
+            padding-bottom: 5px;
+            font-size: 11px;
+        }
+
+        .icon-location {
+            display: inline-block;
+            width: 14px;
+            height: 15px;
+            background: url(spriteV2_new.png);
+            background-position: -189px -16px;
+        }
+
+        .icon-login {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            background: url(spriteV2_new.png);
+            background-position: -203px -20px;
+            position: relative;
+            top: 5px;
+        }
+        .col.col-17.right div:nth-child(2) img{
+            position: relative;
+            top: 3px;
+            width: 2%;
+        }
+        .col.col-17.right div:nth-child(2) a{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row nav">
+        <div class="col col-7">
+            <a href="#" id="logo"></a>
+            <span class="location"><span class="icon-location"></span>北京</span>
+        </div>
+        <div class="col col-17 right">
+            <div class="login">
+                <a href="#"><span class="icon-login"></span> 登录</a>
+                <a href="#">注册</a>
+            </div>
+            <div>
+                <a href="#">二手房</a>
+                <a href="#">新房</a>
+                <a href="#"><img src="https://s1.ljcdn.com/feroot/pc/asset/img/home/lvju.png?_v=20180926210301" alt=""> 租房</a>
+                <a href="#">旅居</a>
+                <a href="#">海外</a>
+                <a href="#">小区经纪人</a>
+                <a href="#">指南</a>
+                <a href="#">房价</a>
+                <a href="#">工具</a>
+                <a href="#">经验</a>
+                <a href="#">发布房源</a>
+                <a href="#">企业汇</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
