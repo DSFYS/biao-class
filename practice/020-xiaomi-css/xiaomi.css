@@ -1,0 +1,190 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity a {
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    background: url(https://i1.mifile.cn/a4/cms_15392619375595_OtGhC.jpg)no-repeat center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+
+.nav.gloabl {
+    background: #333333;
+}
+
+.nav.gloabl a {
+    display: inline-block;
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 1em .86em;
+    padding-left: 0;
+}
+
+.nav.gloabl a::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    background: #666666;
+    position: relative;
+    left: 7.7px;
+    top: 2px;
+}
+
+.nav.gloabl a:last-of-type::after {
+    display: none;
+}
+
+.nav.gloabl button {
+    display: inline-block;
+    padding: 12px;
+    border: none;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.nav.gloabl button:hover {
+    background: #ffffff;
+    color: #ff6700;
+}
+
+.nav.page {
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+.nav.page .logo {
+    display: inline-block;
+    background: #ff6700;
+    width: 55px;
+    height: 55px;
+}
+
+.nav.page .nav-logo {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: #ff6700;
+    background: url(https://s01.mifile.cn/i/mi-logo.png)no-repeat center;
+}
+
+.nav.page .nav-act {
+    display: inline-block;
+    width: 165px;
+    height: 68px;
+    background: url(http://i8.mifile.cn/v1/a1/b7acecd8-729b-dc3a-6a93-1eeb82cd0846.webp)no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: 4px;
+    left: 20px;
+
+}
+.nav.page .pad{
+    padding-top: 10px;
+}
+.nav.page a {
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.nav.page a:hover {
+    color: #ff6700;
+}
+
+.nav.page form {
+    font-size: 0;
+}
+
+.nav.page a,
+.nav.page form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav.page input {
+    width: 89%;
+}
+
+.nav.page button {
+   position: relative;
+    width: 10.5%;
+    border: 1px solid #a9a9a9;
+    background: none;
+    top: 1px;
+    right: 1px;
+}
+
+.nav.page input,
+.nav.page button {
+    padding: 10px;
+    outline: none;
+}
+
+.nav.page .Suspension {
+    display: none;
+}
+.first-screen .classify{
+    background: #204157;
+    color: #eeeeee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.first-screen .classify div{
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    position: relative;
+}
+.first-screen .classify div:last-of-type{
+    padding-bottom: 12px;
+}
+
+.first-screen .classify .in{
+    display: inline-block;
+}
+.first-screen .classify div:hover{
+    background: #ff6700;
+}
+
+.first-screen .classify span::after{
+    content: ">";
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+}
+.first-screen .row.marg{
+    margin-bottom: 20px;
+}
+.first-screen .row .piece{
+    padding-right: 20px;
+}
+.first-screen .row .piece:last-of-type{
+    padding-right: 0;
+}
+.first-screen .shortcut{
+    background: #5f5750;
+}
+.first-screen .shortcut .row{
+  
+    font-size:12px;
+}
+.first-screen .shortcut .row a{
+  color: #a9a9a9;
+}

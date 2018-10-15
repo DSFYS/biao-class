@@ -1,0 +1,437 @@
+body {
+    background: #eeeef1;
+}
+
+a {
+    color: inherit;
+
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    color: white;
+    background: url("https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+.nav {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+    background: url("https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?index=20170526");
+}
+
+.location {
+
+    font-size: 2px;
+    position: relative;
+    bottom: 13px;
+    background: rgba(0, 0, 0, 0.25);
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    padding: 3px;
+}
+
+
+.login {
+    padding-bottom: 5px;
+    font-size: 11px;
+}
+
+.icon-location {
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background: url("https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?index=20170526");
+    background-position: -189px -16px;
+}
+
+.icon-login {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?index=20170526");
+    background-position: -203px -20px;
+    position: relative;
+    top: 5px;
+}
+
+.col.col-17.right div:nth-child(2) img {
+    position: relative;
+    top: 3px;
+    width: 2%;
+}
+
+.col.col-17.right div:nth-child(2) a {
+    padding: 5px;
+}
+
+.slogan {
+    margin-top: 8em;
+}
+
+.slogan .title {
+    font-size: 65px;
+}
+
+.slogan .subtitle {
+    font-size: 19px;
+}
+
+.search {
+    margin-top: 30px;
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search span {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 10px;
+    padding-left: 0px;
+}
+
+.search form {
+    background: #ffffff;
+    font-size: 0;
+}
+
+.search input,
+.search button {
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+}
+
+.search input {
+    width: 80%
+}
+
+.search button {
+    width: 20%;
+    background: #00ae66;
+    color: white;
+}
+
+.statement {
+    margin-top: 8em;
+    padding-bottom: 1.3em;
+}
+
+.statement img {
+    max-width: 1em;
+    position: relative;
+    top: 0.12em;
+}
+
+.statement .center>* {
+    font-size: 70%;
+    padding-right: 30px;
+}
+
+.server {
+    color: #b0b3b4;
+    background: #ffffff;
+}
+
+.server .col-8.middle {
+    padding: 3em 6em;
+}
+
+.server img {
+    width: 5em;
+    padding-bottom: .5em;
+}
+
+.server-title {
+    font-size: 18px;
+    color: black;
+}
+
+.server-subtitle {
+    font-size: 12px;
+
+}
+
+.app {
+    background: url("https://s1.ljcdn.com/feroot/pc/asset/img/home/bg-app.jpg")no-repeat center;
+    background-size: cover;
+    /* background: #000000; */
+}
+
+.app .subtitle {
+    font-size: 46px;
+    font-weight: 100;
+}
+
+.app .title {
+    font-size: 70px;
+    padding-bottom: 0.2em;
+}
+
+.app .desc {
+    max-width: 40%;
+    ;
+    font-size: 14px;
+    line-height: 1.7;
+    padding-bottom: 2em;
+}
+
+.down {
+    max-width: 30%;
+    padding-bottom: 2.6em;
+}
+
+.down .iphone,
+.down .andorin {
+    display: inline-block;
+    width: 136px;
+    height: 46px;
+}
+
+.down img {
+    width: 78%;
+    margin-left: -10px;
+}
+
+.down .iphone {
+    background: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?t=2017052520523424);
+    background-position: -19px -138px;
+    margin-bottom: 1em;
+}
+
+.down .andorin {
+    background: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?t=2017052520523424);
+    background-position: -19px -196px;
+}
+
+.recommend.white {
+    background: white;
+}
+
+.recommend .title span {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: .4em;
+    padding-bottom: .1em;
+    padding-right: .3em;
+}
+
+.bold+span {
+    font-weight: 100;
+}
+
+.recommend .font-small {
+    color: #888;
+    font-size: 14px;
+}
+
+.recommend .font-small:last-child {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.recommend .font-small a {
+    color: #394043;
+}
+
+.card {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.card .preview {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+.preview .pice {
+    position: absolute;
+    top: 65%;
+    color: #ffffff;
+    background: #3b4447;
+    padding: 0.3em;
+}
+
+.info .card-title {
+    font-size: 16px;
+    color: #394043;
+    padding: 3px 16px;
+}
+
+.info .card-desc {
+    padding: 3px 16px;
+}
+
+.info .card-desc span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    padding-right: 9px;
+    padding-bottom: 4px;
+}
+
+.recommend .info .bold {
+    color: #394043;
+}
+
+.recommend .info .right {
+    display: block;
+}
+
+.new-house .preview {
+    position: relative;
+    box-shadow: none;
+}
+
+.new-house .card-title,
+.new-house .card-pice,
+.new-house .preferential {
+    position: absolute;
+}
+
+.new-house .card-title,
+.new-house .card-pice {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.new-house .card-title {
+    top: 40%;
+    font-size: 24px;
+    color: #ffffff;
+
+}
+
+.new-house .card-pice {
+    color: rgb(255, 242, 171);
+    font-size: 20px;
+    top: 50%;
+}
+
+.new-house .alpha {
+    position: absolute;
+    top: 0;
+    bottom: 1.5%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .1);
+}
+
+.new-house .preferential {
+    display: inline-block;
+    top: 80%;
+    background: #fff2ab;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.promise {
+    background: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/truth-bgV2.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.promise .title {
+    width: 510px;
+    height: 120px;
+    background: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?t=2017052520523424);
+    background-position: -18px -253px;
+}
+
+.promise .row {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.promise-desc{
+    padding-left: 3em;
+}
+.promise-desc div{
+    margin-bottom: 18px;
+}
+.promise-desc p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+.promise-desc form{
+    font-size: 0;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+}
+.promise-desc input{
+    width: 94%;
+    border: none;
+    outline: none;
+}
+.promise-desc button{
+    border: none;
+    height: 30px;
+    outline: none;
+    width: 6%;
+    background: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?t=2017052520523424);
+    background-position: -407px -17px;
+}
+.promise-desc input,.promise-desc button{
+    padding: 13px;;
+}
+.footer {
+    font-size: 15px;
+    background: #444;
+    color: #aaa;
+}
+.footer a,
+.footer .anchor {
+    display: inline-block;
+    color: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer .container > * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555;
+}
+.footer .shortcut {
+    color: #fff;
+}
+.footer .shortcut a,
+.footer .shortcut .anchor {
+    padding: 5px;
+}
+.footer .tab-group {
+    margin-bottom: 10px;
+}
+.footer .tab {
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+.footer .meta {
+    min-height: 100px;
+}
