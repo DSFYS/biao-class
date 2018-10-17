@@ -1,17 +1,22 @@
-
+body{
+  background: #fff;
+}
 @font-face {
-  font-family: 'iconfont';  /* project id 874998 */
-  src: url('http://at.alicdn.com/t/font_874998_z1g6694pdjo.eot');
-  src: url('http://at.alicdn.com/t/font_874998_z1g6694pdjo.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_874998_z1g6694pdjo.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_874998_z1g6694pdjo.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_874998_z1g6694pdjo.svg#iconfont') format('svg');
+  font-family: 'iconfont';
+  /* project id 874998 */
+  src: url('http://at.alicdn.com/t/font_874998_lblgxdkcjtl.eot');
+  src: url('http://at.alicdn.com/t/font_874998_lblgxdkcjtl.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_874998_lblgxdkcjtl.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_874998_lblgxdkcjtl.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_874998_lblgxdkcjtl.svg#iconfont') format('svg');
 }
-.iconfont{
-  font-family:"iconfont" !important;
-  font-size:24px;font-style:normal;
- 
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
 }
+
 .nav.page {
   padding-top: 10px;
   padding-bottom: 13px;
@@ -43,9 +48,11 @@
   left: 20px;
 
 }
-.nav.page .pad{
+
+.nav.page .pad {
   padding-top: 10px;
 }
+
 .nav.page a {
   display: inline-block;
   color: #000000;
@@ -80,7 +87,7 @@
 
 .nav.page input,
 .nav.page button {
-  
+
   line-height: 1px;
   padding: 10px;
   outline: none;
@@ -89,7 +96,8 @@
 .nav.page .Suspension {
   display: none;
 }
-.first-screen .classify{
+
+.first-screen .classify {
   position: absolute;
   background: rgba(0, 0, 0, .5);
   color: #eeeeee;
@@ -98,24 +106,26 @@
   font-size: 14px;
 }
 
-.first-screen .classify div{
+.first-screen .classify div {
   padding-left: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
   position: relative;
 }
-.first-screen .classify div:last-of-type{
+
+.first-screen .classify div:last-of-type {
   padding-bottom: 12px;
 }
 
-.first-screen .classify .in{
+.first-screen .classify .in {
   display: inline-block;
 }
-.first-screen .classify div:hover{
+
+.first-screen .classify div:hover {
   background: #ff6700;
 }
 
-.first-screen .classify span::after{
+.first-screen .classify span::after {
   content: ">";
   display: inline-block;
   text-align: right;
@@ -123,36 +133,168 @@
   right: 10%;
 }
 
-.first-screen .row.marg{
+.first-screen .row.marg {
   margin-bottom: 20px;
 }
-.first-screen .row .piece{
+
+.first-screen .row .piece {
   padding-left: 20px;
 }
 
-.first-screen .shortcut{
+.first-screen .shortcut {
   background: #5f5750;
   text-align: center;
 }
-.first-screen .shortcut .iconfont{
-  font-family:"iconfont" !important;
-  font-size:47px;font-style:normal;
- 
+
+.first-screen .shortcut .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 47px;
+  font-style: normal;
+
 }
 
-.first-screen .shortcut .through{
+.first-screen .shortcut .through {
   padding: 10px;
-  
-}
-.first-screen .shortcut .row{
 
-  font-size:12px;
 }
 
-.first-screen .shortcut .row a{
-color: #a9a9a9;
+.first-screen .shortcut .row {
+
+  font-size: 12px;
 }
-.first-screen .contrive img{
+
+.first-screen .shortcut .row a {
+  color: #a9a9a9;
+}
+
+.first-screen .contrive img {
   width: 321px;
   height: 172px;
+}
+.flash-sale{
+  margin-top:2.5em;
+}
+.commend{
+  background: #f5f5f5;
+}
+.card-group{
+  padding-top: 40px;
+}
+.card-group .small-banner{
+  height: 300px;
+  margin-bottom: 20px;
+}
+.card-group .card-group-title {
+  font-weight: 100;
+  font-size: 24px;
+}
+.card-group .right{
+  position: relative;
+  bottom: 20px;
+}
+.card-group .more{
+  position: relative;
+  bottom: 3px;
+  right: 2px;
+  font-size: 16px;
+}
+.card-group .count-down {
+  background: #f1eded;
+  border-top: #e53934;
+  text-align: center;
+  padding: 40px;
+}
+
+.card-group .count-down .iconfont {
+  font-size: 40px;
+  color: #e53934;
+}
+
+.card-group .count-down .batch {
+  font-family: sans-serif;
+  font-size: 19px;
+  color: #e53934;
+}
+.card-group .count-down p{
+  padding-bottom: 30px;
+}
+.card-group .count-down p:last-child{
+  position: relative;
+  right: 18%;
+  font-size: 24px;
+  padding-bottom: 0px;
+}
+.card-group .count-down .time{
+  color: #fff;
+  background: #605751;
+  padding: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card-group .card-desc .col-6{
+  padding-left: 20px;
+}
+.card-group .card-desc .row:first-of-type{
+  margin-bottom: 26px;
+}
+.card-group .card{
+  text-align: center;
+  background: #fefefe;
+  position: relative;
+}
+.card-group .card:hover{
+  box-shadow: 0 8px  30px rgba(0, 0, 0, .3);
+}
+.card-group .card.small{
+  height: 143px;
+  margin-bottom: 10px;
+}
+.card-group .card.small .row{
+  position: relative;
+  top: 3.8em;
+}
+.card-group .card.small .row img{
+  position: relative;
+  bottom: 3em;
+}
+.card-group .card.small .row .leader{
+  font-size: 20px;
+}
+.card-group .card.small .iconfont{
+  font-size: 4em;
+  color: #ff6700;
+}
+.card-group .card .suspend{
+  position: absolute;
+  top: 0;
+  left: 35%;
+  color: white;
+  padding-left: .8em;
+  padding-right: .8em;
+}
+.card-group .card .suspend.price-spike{
+  background: #e53935;
+}
+.card-group .card .suspend.new{
+  background: #83c44e;
+}
+.card-group .card .info > *{
+  padding-top: 6px;
+}
+.card-group .card .info-desc{
+ font-size: 12px;
+ color: #999999;
+}
+.card-group .card .price{
+  color: #ff6700;
+}
+.card-group .card del{
+  color: #aaaaaa;
+}
+.banner{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.col-banner img{
+  height: 614px;
 }
