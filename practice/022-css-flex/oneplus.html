@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OnePlus</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            background: #f6f6f6;
+            min-width: 450px;
+        }
+
+        .centered {
+            max-width: 75rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @font-face {
+            font-family: 'iconfont';
+            /* project id 882160 */
+            src: url('http://at.alicdn.com/t/font_882160_xsg3eb5m9o.eot');
+            src: url('http://at.alicdn.com/t/font_882160_xsg3eb5m9o.eot?#iefix') format('embedded-opentype'),
+                url('http://at.alicdn.com/t/font_882160_xsg3eb5m9o.woff') format('woff'),
+                url('http://at.alicdn.com/t/font_882160_xsg3eb5m9o.ttf') format('truetype'),
+                url('http://at.alicdn.com/t/font_882160_xsg3eb5m9o.svg#iconfont') format('svg');
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 1.5rem;
+            font-style: normal;
+        }
+
+        .nav .centered {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            cursor: pointer;
+        }
+
+        .logo .iconfont {
+            color: #eb0028;
+            font-size: 2rem;
+        }
+
+        .link-group a {
+            display: inline-block;
+            color: #828282;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            font-size: 90%;
+        }
+        .link-group span{
+            position: relative;
+        }
+        .link-group a:hover {
+            color: #eb0028;
+        }
+
+        .link-group a:hover::after {
+            position: absolute;
+            display: inline-block;
+            left: .2rem;
+            top:2.1rem;
+            content: "";
+            width: 8rem;
+            height: 0.2rem;
+            background: #eb0028;
+        }
+
+        .service span {
+            padding-left: 2rem;
+            color: #828282;
+            cursor: pointer;
+        }
+
+        .service span:hover {
+            color: black;
+        }
+
+        .card-group .centered {
+            display: flex;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+           
+        }
+        .card{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            background: #ffffff;
+        }
+        
+        .card:hover{
+            position: relative;
+            bottom: .3rem;
+            box-shadow: 0px 30px 20px #dddddd;
+        }
+        .card:first-of-type{
+            margin-left: 0rem;
+        }
+        .card:last-of-type{
+            margin-right: 0;
+        }
+       .card .desc{
+           padding-left: 1.3rem;
+           padding-right: 1.3rem;
+           padding-bottom: 1rem;
+           font-size: 14px;
+           color: #333;
+       }
+    </style>
+   <style media="screen and (max-width: 1100px)">
+       .card-group .centered{
+        flex-wrap: wrap;
+        justify-content: space-between;
+       }
+        .link-group a{
+            padding: 1rem 1rem;
+        }
+        .link-group a:hover::after {
+            width: 6rem;
+        }
+        
+        
+        .card-group .card:last-child{
+            margin-left: 0;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <style media="screen and (max-width:852px)">
+        .card-group .centered{
+            flex-direction: column;
+        }
+        .link-group{
+            text-align: center;
+        }
+        .card-group .card{
+            margin-left: 0;
+            margin-top: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card-group .card:first-of-type{
+            margin-top: 0;
+        }
+    </style>
+    <style media="screen and (max-width:749px)">
+        .service .iconfont{
+            display: block;
+        }
+    </style>
+<body>
+    <div class="nav">
+        <div class="centered">
+            <div class="logo">
+                <span class="iconfont">&#xe830;</span>
+            </div>
+            <div class="link-group">
+               <span> <a href="#">OnePlus6</a></span>
+               <span> <a href="#">OnePlus6</a></span>
+               <span> <a href="#">OnePlus6</a></span>
+               <span> <a href="#">OnePlus6</a></span>
+               <span> <a href="#">OnePlus6</a></span>
+            </div>
+            <div class="service">
+                <span class="iconfont">&#xe638;</span>
+                <span class="iconfont">&#xe60f;</span>
+                <span class="iconfont">&#xe637;</span>
+            </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="centered">
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://image01.oneplus.cn/shop/201810/11/177/1ff19e3121bff3083812e050fa7b8ac5.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>博客</h2>
+                    <p>OnePlus 6 Android 9.0 版本正式版现已推送</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://image01.oneplus.cn/shop/201810/11/177/1ff19e3121bff3083812e050fa7b8ac5.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>博客</h2>
+                    <p>OnePlus 6 Android 9.0 版本正式版现已推送</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://image01.oneplus.cn/shop/201810/11/177/1ff19e3121bff3083812e050fa7b8ac5.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>博客</h2>
+                    <p>OnePlus 6 Android 9.0 版本正式版现已推送</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
