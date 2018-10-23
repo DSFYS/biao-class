@@ -1,0 +1,68 @@
+nav{
+    background: rgba(30, 30, 30, .5);
+    padding: .8rem;
+}
+nav .centered{
+            align-items: center;
+}
+nav .logo span{
+    display: inline-block;
+    padding-right: .8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: oblique;
+    color: #eeeeee
+}
+nav .link-group a{
+    font-size: 1.28rem;
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav .link-group a:hover{
+    color: #aaaaaa;
+}
+nav .sreach {
+    position: relative;
+}
+nav .sreach  input{
+    color: #fff;
+    width: 95%;
+    background-color: transparent;
+    padding: .5rem;
+    border: 1px solid #aaaaaa;
+}
+nav .sreach  button{
+    position: absolute;
+    right: 0;
+    top:18%;
+    border: none;
+    color: #aaaaaa;
+}
+nav .sreach input:focus{
+    border: 1px solid #eeeeee;
+}
+nav .sreach  button:hover{
+    color: #eee;
+}
+main {
+    flex-direction: column;
+}
+main  > *{
+    text-align: center;
+    padding: 10rem;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+main .bladerunner{
+    background: url(http://i4.bvimg.com/666154/619c1f412711a989.jpg)no-repeat center;
+    height: 15rem;
+}
+main .cyberpunk{
+    background: url(http://i4.bvimg.com/666154/7cccec829b6fc754.gif)no-repeat center;
+}
+main .brutalism{
+    background: url(https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2481925538,3845743619&fm=173&app=25&f=JPEG?w=640&h=229&s=B7D8E820990183137E316D570100C0A3)no-repeat center;
+    height: 15rem;
+}
