@@ -1,0 +1,269 @@
+/* nav样式 */
+.nav .centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo .iconfont {
+    color: #eb0028;
+    font-size: 2rem;
+}
+
+.link-group a {
+    display: inline-block;
+    color: #828282;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 90%;
+}
+
+.link-group span {
+    position: relative;
+}
+
+.link-group a:hover {
+    color: #eb0028;
+}
+
+.link-group a:hover::after {
+    position: absolute;
+    display: inline-block;
+    left: .2rem;
+    top: 2.1rem;
+    content: "";
+    width: 8rem;
+    height: 0.2rem;
+    background: #eb0028;
+}
+
+.service span {
+    padding-left: 2rem;
+    color: #828282;
+    cursor: pointer;
+}
+
+.service span:hover {
+    color: black;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* carousel轮播图样式 */
+.carousel {
+    background: url(https://image01.oneplus.cn/shop/201809/30/1635/4cb3486e8d48c78737b5f248a9873eac.jpg)no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.carousel-desc {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    padding-left: 15%;
+}
+
+.carousel-title,
+.carousel-slogan {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.carousel-title {
+    font-size: 1.5rem;
+}
+
+.carousel-slogan {
+    font-size: 3rem;
+}
+
+.carousel .left,
+.carousel .right {
+    top: 48%;
+    position: absolute;
+    color: black;
+    background: rgba(216, 216, 216, .2);
+    padding: 0.5rem;
+    border: rgba(216, 216, 216, .2);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.carousel .left:hover,
+.carousel .right:hover {
+    background: rgba(216, 216, 216, .8);
+    cursor: pointer;
+}
+
+.carousel .right {
+    right: 0;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* shortcut快速通道样式 */
+.shortcut .col {
+    position: relative;
+    height: ;
+}
+
+.shortcut .shortcut-name {
+    margin: 0;
+    font-size: 1.5rem;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* activtiy活动样式 */
+.activtiy {
+    background: url(https://image01.oneplus.cn/shop/201809/26/880/8070f60cb10b64a0bcf03d98242947ca.jpg)no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.activity-desc {
+    font-size: 3rem;
+    font-weight: 100;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* card-group样式 */
+.card-group .centered {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background: #ffffff;
+}
+
+.card:hover {
+    position: relative;
+    bottom: .3rem;
+    box-shadow: 0px 30px 20px #dddddd;
+}
+
+.card:first-of-type {
+    margin-left: 0rem;
+}
+
+.card:last-of-type {
+    margin-right: 0;
+}
+
+.card .desc {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    color: #333;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* skip售后服务样式 */
+.skip {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.skip .row {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skip .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(https://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png)no-repeat;
+}
+
+.skip .return5day {
+    background-position: 0 -400px;
+}
+
+.skip .return30day {
+    background-position: 0 -237px;
+}
+
+.skip .notpostage {
+    background-position: 0 -1039px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+footer {
+    background: #ffffff;
+}
+
+/* footer-link样式 */
+.footer-link {
+    padding: 2rem;
+    font-weight: 100;
+}
+.footer-link .centered {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-link .centered .col-18 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link .centered .col-6 {
+    text-align: center;
+}
+
+.footer-link .centered .col-6>* {
+    padding-bottom: .8rem;
+}
+.footer-link .centered .col-6 button{
+    color: #333;
+    border: 1px solid #333;
+}
+.footer-link .centered .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link .centered a {
+    display: inline-block;
+    padding-bottom: .8rem;
+    font-size: 85%;
+    color: #777777;
+}
+
+.footer-link .centered a:hover {
+    color: #444444;
+}
