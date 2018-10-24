@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: "微软雅黑", "Microsoft YaHei", sans-serif;
+    box-sizing: border-box;
+    min-width: 450px;
+    font-size: 1rem;
+    color: black;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    background: transparent;
+    color: #f6f6f6;
+    outline: none;
+    border: 1px solid #f6f6f6;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+nav .centered {
+    align-items: center;
+}
+
+nav .logo span {
+    display: inline-block;
+    padding-right: .8rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #6e220a;
+    font-family: sans-serif;
+}
+
+nav .logo p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #6e220a;
+    margin: 0;
+}
+
+nav .logo span:last-of-type {
+    font-family: sans-serif;
+}
+
+nav .link-group .active {
+    color: #6e220a;
+}
+
+nav .link-group a {
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #555555;
+}
+
+nav .link-group a:hover {
+    color: #6e220a;
+}
+
+nav .link-group a:hover::after,
+nav .link-group a:hover::before {
+    position: relative;
+    top: .2rem;
+    content: "";
+    display: inline-block;
+    width: .13rem;
+    height: 1rem;
+    background: #6e220a;
+}
+
+nav .sreach {
+    position: relative;
+}
+
+nav .sreach input {
+    width: 95%;
+    background-color: transparent;
+    padding: .5rem;
+    border: 1px solid #aaaaaa;
+}
+
+nav .sreach button {
+    position: absolute;
+    right: 0;
+    top: 23%;
+    border: none;
+    color: #aaaaaa;
+}
+
+nav .sreach input:focus {
+    border: 1px solid black;
+}
+
+nav .sreach button:hover {
+    color: black;
+}
+main .centered{
+    margin-top: 2rem;
+}
+main .article{
+    padding:2em;
+   background: #f9f9f9;
+}
+.row.column{
+    flex-direction: column;
+}
+footer{
+    height: 3rem;
+    background: #6e220a;
+}
