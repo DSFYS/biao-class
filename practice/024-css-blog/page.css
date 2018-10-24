@@ -1,6 +1,7 @@
 nav{
     background: rgba(30, 30, 30, .5);
-    padding: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 nav .centered{
             align-items: center;
@@ -14,7 +15,7 @@ nav .logo span{
     color: #eeeeee
 }
 nav .link-group a{
-    font-size: 1.28rem;
+    font-size: 1.1rem;
     font-weight: 500;
     display: inline-block;
     padding-left: 1rem;
@@ -54,15 +55,27 @@ main  > *{
     padding: 10rem;
     background-attachment: fixed;
     background-size: 100%;
+    height: 15rem;
+    font-size: 2rem;
+}
+main  > * a{
+    position: relative;
+    top:2rem;
+    color: #eee;
+}
+main  > * a:hover{
+    color: rgba(0, 0, 0, .5);
+}
+main  > *  p{
+   font-size: 1.5rem;
+   padding-top: 1rem;
 }
 main .bladerunner{
     background: url(http://i4.bvimg.com/666154/619c1f412711a989.jpg)no-repeat center;
-    height: 15rem;
 }
 main .cyberpunk{
-    background: url(http://i4.bvimg.com/666154/7cccec829b6fc754.gif)no-repeat center;
+    background: url(http://i2.bvimg.com/666154/b4ac7d6e05463bad.jpg)no-repeat center;
 }
 main .brutalism{
-    background: url(https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2481925538,3845743619&fm=173&app=25&f=JPEG?w=640&h=229&s=B7D8E820990183137E316D570100C0A3)no-repeat center;
-    height: 15rem;
+    background: url(http://i2.bvimg.com/666154/7d70a99da5a089ea.jpg)no-repeat center;
 }
