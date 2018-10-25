@@ -39,8 +39,9 @@ button:hover {
     text-align: right;
 }
 
-.nav{
-    box-shadow: 0,0,10px,#555555;
+nav{
+    box-shadow: 0 0 10px #555555;
+    padding-bottom: 1rem;
 }
 nav .centered {
     align-items: center;
