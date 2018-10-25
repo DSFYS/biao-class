@@ -5,7 +5,6 @@ body {
     min-width: 450px;
     font-size: 1rem;
     color: black;
-
 }
 
 a {
@@ -40,7 +39,9 @@ button:hover {
     text-align: right;
 }
 
-
+.nav{
+    box-shadow: 0,0,10px,#555555;
+}
 nav .centered {
     align-items: center;
 }

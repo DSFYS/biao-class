@@ -7,7 +7,7 @@
     justify-content: space-around;
 }
 
-.recommend .recommend-title {
+.recommend .recommend-title  ,.commentaries .title{
     font-size: 1.5rem;
     color: #6e220a;
     padding-bottom: .5rem;
@@ -43,17 +43,19 @@
 .recommend .column a:hover,
 .discuss .col-6 .img-name,
 .discuss .preview .discuss-decs:hover,
-.centered .text-title {
+.centered .text-title,
+.ask .title:hover {
     color: #6e220a;
 }
 
-.discuss {
+.discuss , .ask{
     padding: 2rem;
     background: #f9f9f9;
     margin-bottom: 2rem;
 }
 
-.discuss span ,.centered .label{
+.discuss span,
+.centered .label {
     color: #666666;
 }
 
@@ -84,7 +86,7 @@
     position: relative;
 }
 
-.discuss .others {
+.discuss .others , .ask .others {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -99,15 +101,65 @@
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
-.centered .label span{
+
+.centered .label span {
     display: inline-block;
     padding-left: 2em;
 }
-.text .content{
+
+.text .content {
     font-weight: 600;
 }
 
-.text .separate{
+.text .separate {
     font-size: 1.3rem;
     padding-top: 2rem;
+}
+
+.ask .title {
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+.ask .preview{
+    padding-left: 1rem;
+    font-size: 90%;
+    position: relative;
+}
+.ask .others{
+    font-size: 1rem;
+    color: #555555;
+}
+
+.commentaries .title::after{
+    display: inline-block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #666666;
+}
+
+.commentaries .comment::after{
+    display: inline-block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #666666;
+}
+.commentaries .observer{
+    display: inline-block;
+    color: rgb(106, 106, 201);
+    font-size: 1.2rem;
+}
+ .commentaries .comment-text{
+    font-size: 90%;
+    color: #555555;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+.commentaries span{
+    font-size: 90%;
+    padding-right: .5rem;
+}
+.commentaries strong{
+    color: rgb(106, 106, 201);
 }
