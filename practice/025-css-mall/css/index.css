@@ -1,0 +1,54 @@
+
+main .slogan-box {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+main .slogan {
+    position: absolute;
+    color: #fff;
+    top: 1rem;
+    left: 2rem;
+    font-size: 1.4rem;
+}
+
+main .slogan .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+main .slogan .subtitle {
+    margin-top: 0;
+}
+
+main h1,
+main h2 {
+    margin: 0;
+}
+
+main h2 {
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+main .card {
+    margin: 1rem;
+}
+
+main .card .corporate-name {
+    font: 1.2rem bold;
+}
+main .card .corporate-desc{
+    font-size: 80%;
+    line-height: 1.3rem;
+    color: #4d4f53;
+    letter-spacing: 1px;
+}
+main button{
+    padding: .3rem 1rem;
+    color: #fff;
+    background: #008bd0;
+    border: none;
+    letter-spacing: 1px;
+}

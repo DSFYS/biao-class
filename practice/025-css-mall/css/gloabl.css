@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'iconfont';
+    /* project id 892858 */
+    src: url('http://at.alicdn.com/t/font_892858_1sj3z80frf3.eot');
+    src: url('http://at.alicdn.com/t/font_892858_1sj3z80frf3.eot?#iefix') format('embedded-opentype'),
+        url('http://at.alicdn.com/t/font_892858_1sj3z80frf3.woff') format('woff'),
+        url('http://at.alicdn.com/t/font_892858_1sj3z80frf3.ttf') format('truetype'),
+        url('http://at.alicdn.com/t/font_892858_1sj3z80frf3.svg#iconfont') format('svg');
+}
+img{
+    max-width: 100%;
+}
+a:hover,
+nav .logo {
+    color: #131e8b;
+
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav .col,
+footer .col {
+    flex-grow: 1;
+}
+
+nav .logo {
+    font-size: 2rem;
+}
+
+nav .link-group {
+    font-size: .56rem;
+    color: #747678;
+}
+
+nav .link-group a {
+    display: inline-block;
+    padding-left: .8rem;
+}
+
+nav .iconfont:first-child {
+    color: #c90123;
+    position: relative;
+    top: .26em;
+}
+
+nav .iconfont:last-child {
+    position: relative;
+    top: .2em;
+}
+
+nav .sort {
+    font-size: .8rem;
+    font-family: "Frutiger Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    line-height: 2rem;
+}
+
+nav .sort a {
+    padding-right: .8rem;
+    color: #747678;
+}
+
+nav .sort a:hover {
+    color: #131e8b;
+}
+main .img-box {
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+}
+
+footer {
+    font-size: .8rem;
+    color: #747678;
+}
+
+footer .iconfont {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,36 @@
+main {
+    background: url(http://i4.bvimg.com/666154/e52a3f682516fa60.jpg) center;
+    background-size: contain;
+}
+
+main .shadow {
+    background: rgba(255, 255, 255, .5);
+}
+
+main .centered {
+    margin-top: 3px;
+}
+main .cyberpunk{
+    padding: 1rem;
+    line-height: 180%;
+    font-size: 110%;
+}
+main .text-title ,.title{
+    padding-top: 2rem;
+    color: #5f1e0a;
+    font-size: 2rem;
+    font-weight: 700;
+}
+main .title{
+    font-size: 1.5rem;
+    display: block;
+}
+main .desc {
+    text-align: center;
+}
+
+main .img-box {
+    font-size: 0;
+    padding:0;
+    margin: 0;
+}

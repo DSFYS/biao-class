@@ -83,16 +83,6 @@ nav .link-group a:hover {
     color: #6e220a;
 }
 
-nav .link-group a:hover::after,
-nav .link-group a:hover::before {
-    position: relative;
-    top: .2rem;
-    content: "";
-    display: inline-block;
-    width: .13rem;
-    height: 1rem;
-    background: #6e220a;
-}
 
 nav .sreach {
     position: relative;
