@@ -13,10 +13,13 @@ a{
 .flex {
     display: flex;
 }
+.text-center{
+    text-align: center;
+}
 .text-right{
     text-align: right;
 }
-.col-auto {
+.col {
     flex-grow: 1;
 }
 

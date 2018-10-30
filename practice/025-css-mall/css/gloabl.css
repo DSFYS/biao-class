@@ -1,3 +1,6 @@
+body{
+    font-family: "Avenir Next", "Helvetica Neue", Arial, Verdana, sans-serif;
+}
 @font-face {
     font-family: 'iconfont';
     /* project id 892858 */
@@ -15,7 +18,13 @@ nav .logo {
     color: #131e8b;
 
 }
-
+button{
+    color: #fff;
+    background: #008bd0;
+    border: none;
+    letter-spacing: 1px;
+    outline: none;
+}
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 1.5rem;
@@ -77,6 +86,7 @@ main .img-box {
 }
 
 footer {
+    margin: 1rem;
     font-size: .8rem;
     color: #747678;
 }

@@ -1,0 +1,85 @@
+.show {
+    margin-bottom: 2rem;
+}
+
+.show .parameter {
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: #888888;
+}
+
+.product {
+    line-height: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.product .col{
+    padding: 1rem;
+}
+.product:hover {
+    position: relative;
+    box-shadow: 0 15px 40px #808080;
+    transition: 500ms;
+}
+
+.product .product-name {
+    font-size: 1.5rem;
+}
+
+.product .product-pice {
+    font-size: 1.1rem;
+    color: #D95E00;
+}
+
+.product .now {
+    font-size: .8rem;
+    color: #E74C3C;
+}
+
+.product p {
+    font-size: .9rem;
+    color: #777;
+    margin: 0;
+}
+
+.product p::after,.product-desc .line::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #808080;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.product-desc .detail.left{
+    background:rgba(220, 220, 220, .16);
+}
+.product .attach {
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product .buy-btn {
+    padding: 1.4em 5em;
+}
+
+.product-desc .detail{
+    padding: 1rem;
+}
+.product-desc .detail .col-9,.product-desc .detail .col-15{
+    padding: 1rem;
+}
+.product-desc .detail .title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom:.3rem; 
+}
+.product-desc .detail .desc{
+    font-size: .9rem;
+}
+main a{
+    font-size: .8rem;
+    color: #131e8b;
+}

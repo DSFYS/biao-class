@@ -35,7 +35,9 @@ main h2 {
 main .card {
     margin: 1rem;
 }
-
+main .card .img-box{
+    min-height: 200px;;
+}
 main .card .corporate-name {
     font: 1.2rem bold;
 }
@@ -47,8 +49,4 @@ main .card .corporate-desc{
 }
 main button{
     padding: .3rem 1rem;
-    color: #fff;
-    background: #008bd0;
-    border: none;
-    letter-spacing: 1px;
 }

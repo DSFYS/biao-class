@@ -53,6 +53,9 @@ main .desc {
 .preview .product:last-of-type::after{
     display: none;
 }
+.preview p{
+    margin: 0;
+}
 .series a {
     color: #008bd0;
 }
@@ -69,7 +72,9 @@ main .desc {
 .product .product-desc {
     color: #4d4f53;
 }
-
+.product .product-desc a::before{
+    display: none;
+}
 .product .property span {
     display: inline-block;
     padding-right: .3rem;
@@ -90,6 +95,7 @@ main .desc {
 .product .property span:last-of-type::after {
     display: none;
 }
+
 .series .contact{
     margin: 1rem;
 }
@@ -106,6 +112,6 @@ main .desc {
     background: #9a9b9c;
     width: 12%;
     border: none;
-    padding: .3rem;
+    padding: .33rem;
     outline: none;
 }
