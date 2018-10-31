@@ -56,18 +56,6 @@ main .desc {
 .preview p{
     margin: 0;
 }
-.series a {
-    color: #008bd0;
-}
-
-.product .porduct-name:hover {
-    color: #069
-}
-
-.series a::before {
-    content: '>';
-    color: inherit;
-}
 
 .product .product-desc {
     color: #4d4f53;
@@ -109,9 +97,6 @@ main .desc {
 }
 .series .contact button{
     color: #ffffff;
-    background: #9a9b9c;
     width: 12%;
-    border: none;
     padding: .33rem;
-    outline: none;
 }
