@@ -13,29 +13,16 @@ body{
 img{
     max-width: 100%;
 }
-
 a:hover,
 nav .logo {
     color: #131e8b;
-}
-main a{
-    color: #008bd0;
-}
-main a::before{
-    content: '>';
-    color: inherit;
+
 }
 button{
     color: #fff;
     background: #008bd0;
     border: none;
     letter-spacing: 1px;
-    outline: none;
-}
-form button{
-    color: #ffffff;
-    background: #9a9b9c;
-    border: none;
     outline: none;
 }
 .iconfont {
@@ -99,7 +86,13 @@ main .img-box {
     justify-content:center;
     align-items:Center;
 }
-
+main a{
+    color: #008bd0;;
+}
+main a::before {
+    content: '>';
+    color: inherit;
+}
 footer {
     margin: 1rem;
     font-size: .8rem;

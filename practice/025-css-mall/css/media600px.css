@@ -12,9 +12,11 @@ nav .centered .row,
 footer .centered .row {
     display: flex;
 }
-main .slogan{
+
+main .slogan {
     display: none;
 }
+
 main .series .series-desc {
     font-size: 1rem;
 }
@@ -46,4 +48,13 @@ nav .sort a::after {
 main .preview .img-box {
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+main .search input {
+    width: 94%;
+    margin-bottom: .5rem;
+}
+
+main .search button {
+    width: 100%;
 }

@@ -1,5 +1,5 @@
-
 main .slogan-box {
+    
     position: relative;
     margin-bottom: 2rem;
 }
@@ -10,6 +10,7 @@ main .slogan {
     left: 2rem;
     font-size: 1.8rem;
 }
+  
 
 main .slogan .title {
  
@@ -19,6 +20,12 @@ main .slogan .title {
 
 main .slogan .subtitle {
     margin-top: 0;
+}
+main a{
+    color:inherit;
+}
+main a::before {
+    display: none;
 }
 
 main h1,

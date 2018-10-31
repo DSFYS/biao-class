@@ -1,18 +1,27 @@
 main .search {
-    width: 80%;
     font-size: .9rem;
     letter-spacing: .06rem
 }
-main .search-bar{
+
+main .search-bar {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
 main .search input {
     font-weight: 600;
     padding: .5rem;
     font-size: .9rem;
     width: 87%;
     outline: none;
+}
+
+main a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
 }
 
 main .search button {
@@ -23,11 +32,12 @@ main .search button {
     font-size: .9rem;
 }
 
-main .result-group .result{
+main .result-group .result {
     padding-top: 2rem;
     line-height: 1.5rem;
 }
 
-main .search-term span , main .result .result-title{
+main .search-term span,
+main .result .result-title {
     font-weight: bold;
 }
