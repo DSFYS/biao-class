@@ -43,7 +43,7 @@
     margin: 0;
 }
 
-.product p::after,.product-desc .line::before {
+.product p::after, {
     content: "";
     display: block;
     width: 100%;
@@ -53,7 +53,7 @@
     margin-bottom: .5rem;
 }
 .product-desc .detail.left{
-    background:rgba(220, 220, 220, .16);
+    background:rgba(220, 220, 220, .3);
 }
 .product .attach {
     font-size: .9rem;
@@ -63,6 +63,13 @@
 
 .product .buy-btn {
     padding: 1.4em 5em;
+}
+.product .buy-btn:hover{
+    cursor: pointer;
+    transition: 500ms;
+    background: none;
+    color:#008bd0;
+    border: 1px solid #808080;
 }
 
 .product-desc .detail{

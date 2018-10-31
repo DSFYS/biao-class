@@ -48,7 +48,9 @@ nav .link-group {
     font-size: .56rem;
     color: #747678;
 }
-
+nav .link-group div{
+    display: inline-block;
+}
 nav .link-group a {
     display: inline-block;
     padding-left: .8rem;

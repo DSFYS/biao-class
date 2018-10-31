@@ -7,13 +7,12 @@ main .slogan-box {
 main .slogan {
     position: absolute;
     color: #fff;
-    top: 1rem;
     left: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 main .slogan .title {
-    font-size: 1.6rem;
+ 
     font-weight: bold;
     margin-bottom: 0;
 }
