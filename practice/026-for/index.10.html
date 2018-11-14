@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let i;
+        let ruselt = ['aaaaaa', 'bbbbbb', 'cccccc', 'dddddd', 'jiehsule '];
+        for (i = 0; i < ruselt.length; i++) {
+            console.log(ruselt[i]);
+        }
+    </script> -->
+
+
+    <script>
+        let userList = [
+            {
+                name: '王花花'
+            },
+            {
+                name: '王拴蛋'
+            },
+            {
+                name: '牛备备'
+            },
+        ]
+                let newlist=[];
+            for (let i = 0; i < userList.length; i++) {
+                const user = userList[i];
+                if(user.name.startsWith("王")){
+                    newlist.push(user);
+                }   
+            }
+            console.log(newlist);
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let list = [
+            '王花花',
+            '刘备备',
+            '李拴蛋',
+            '赵可爽',
+        ];
+
+        function jumper(arr, jump) {
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] === jump) {
+                    continue;
+                }
+                console.log(arr[i]);
+            }
+        }
+
+        jumper(list,"李拴蛋");
+    </script>
+</body>
+
+</html>

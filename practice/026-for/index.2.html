@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let i;
+        let ruselt = ['aaaaaa', 'bbbbbb', 'cccccc', 'dddddd', 'jiehsule '];
+        for (i = 0; i < ruselt.length; i++) {
+            console.log(ruselt[i]);
+        }
+    </script>
+
+
+    <script>
+        let userlist = [
+            'aaaaaa',
+            'bbbbbb',
+            'cccccc',
+            'dddd'
+        ]
+
+        let str="";
+        for (let i = 0; i < userlist.length; i++) {
+            let user = userlist[i];
+            if (user == userlist[0])
+                str += user;
+            else
+                str += ',' + user;
+        }
+        console.log(str);
+    </script>
+
+</body>
+
+</html>

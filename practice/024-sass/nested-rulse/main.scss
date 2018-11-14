@@ -1,0 +1,30 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+form {
+    &:hover {
+        border: #000000 solid;
+    }
+
+    a {
+        color: aqua;
+        border: 1px solid #000000;
+    }
+
+    .card {
+        &::before {
+            content: "aaa#{14+6}aaa"
+        }
+
+        &-title {
+            color: red;
+        }
+
+        &-desc {
+            color: blue;
+        }
+    }
+
+}

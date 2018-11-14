@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let list = [
+            'abb',
+            'bcc',
+            'cdd',
+            'daa',
+        ];
+
+        function search(arr, keyword) {
+            let result = [];
+
+            for (let i = 0; i < arr.length; i++) {
+                let it = arr[i];
+
+                // 如果当前的元素中不包含关键词，就直接跳过
+                if (!it.includes(keyword))
+                    continue;
+
+                // 否则，将当前元素推入搜索结果
+                result.push(it);
+            }
+
+            return result;
+        }
+        let sss = "a";
+        console.log(search(list, sss));
+    </script>
+</body>
+
+</html>

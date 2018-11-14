@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let i;
+        let ruselt = ['aaaaaa', 'bbbbbb', 'cccccc', 'dddddd', 'jiehsule '];
+        for (i = 0; i < ruselt.length; i++) {
+            console.log(ruselt[i]);
+        }
+    </script> -->
+
+
+    <script>
+        let userList = ['a1', 'a2', ['b1', 'b2', ['c1', 'c2', 'c3'], 'b3'], 'a3'];
+
+        let levelone = "";
+        let leveltow = "";
+        let levelthere = "";
+
+        for (let i = 0; i < userList.length; i++) {
+            let user = userList[i];
+            if (typeof (user) === "string") {
+                levelone += "," + user;
+            } else {
+                for (let j = 0; j < user.length; j++) {
+                    let usertow = user[j];
+                    if (typeof (usertow) === "string") {
+                        leveltow += "," + usertow;
+                    } else {
+                        for (let z = 0; z < usertow.length; z++) {
+                            let userthree=usertow[z];
+                           levelthere+=","+userthree;
+                        }
+                    }
+                }
+            }
+        }
+        console.log(levelone);
+        console.log(leveltow);
+        console.log(levelthere);
+    </script>
+
+</body>
+
+</html>

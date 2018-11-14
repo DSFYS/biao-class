@@ -1,0 +1,17 @@
+a {
+  color: red;
+  text-decoration: none; }
+
+form:hover {
+  border: #000000 solid; }
+form a {
+  color: aqua;
+  border: 1px solid #000000; }
+form .card::before {
+  content: "aaa20aaa"; }
+form .card-title {
+  color: red; }
+form .card-desc {
+  color: blue; }
+
+/*# sourceMappingURL=main.css.map */

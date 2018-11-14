@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let list = [
+            'abb',
+            'bcc',
+            'cdd',
+            'daa',
+        ];
+
+        function sreach( seek,arr = list) {
+            let newlist = [];
+            for (let i = 0; i < arr.length; i++) {
+                let aaa = arr[i];
+                if (!aaa.includes(seek)) {
+                    continue;
+                } else {
+                    newlist.push(aaa);
+                }
+            }
+            return newlist;
+        }
+
+        let sss = "a";
+        console.log(sreach( 'b'));
+    </script>
+</body>
+
+</html>

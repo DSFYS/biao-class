@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+
+        function eachNumber(arr, fn) {
+            for (let i = 0; i < arr.length; i++) {
+                // 返回回调函数的执行结果
+                fn(arr[i]);
+            }
+        }
+
+
+
+        function evenNumber(arr) {
+            let newlist = [];
+            eachNumber(arr, function (it) {
+                if (it % 2 === 0) {
+                    newlist.push(it);
+                }
+            })
+            return newlist;
+        }
+
+        function oddNumber(arr) {
+            let newlist = [];
+            eachNumber(arr, function (it) {
+                if (it % 2) {
+                    continue;
+                } else {
+                    newlist.push(it);
+                }
+            })
+            return newlist;
+        }
+
+
+
+        function max(arr) {
+            let maxnumber;
+            eachNumber(arr, function (it) {
+                if (typeof(maxnumber)==="undefined"){
+                    maxnumber=it;
+                    return;
+                }
+                if(it>maxnumber){
+                    maxnumber=it;
+                }
+            })
+            return maxnumber;
+        }
+        console.log(max([1,3,5,8,3]));
+    </script>
+</body>
+
+</html>

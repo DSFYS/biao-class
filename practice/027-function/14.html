@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let num = 120;
+
+        function evenMaker(max) {
+            let newlist = [];
+            for (let i = 0; i < max; i++) {
+                let even = (i + 1) * 2;
+                if (even > max)
+                    break;
+                else {
+                    newlist.push(even);;
+                }
+            }
+            return newlist;
+        }
+
+        console.log(evenMaker(num));
+    </script>
+</body>
+
+</html>
