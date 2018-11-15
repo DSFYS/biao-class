@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gradual</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .elder {
+            position: relative;
+        }
+
+        .item {
+            left: 150px;
+            right: 100px;
+            position: absolute;
+            opacity: 0;
+            transition: all 4s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="elder">
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/bbb/000?text=A" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/bbb/000?text=B" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/bbb/000?text=C" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/bbb/000?text=D" alt="">
+        </div>
+    </div>
+
+    <script>
+        const item = document.querySelectorAll(".item");
+        let maxnum = item.length - 1;
+        item[0].style.opacity = 1;
+        let num = 1;
+        setInterval(function () {
+            if (num >= item.length)
+                num = 0;
+
+            getPrev();
+
+            let next = item[num];
+            next.style.opacity = 1;
+            num++;
+        }, 1400)
+
+        function getPrev() {
+            if (num == 0) {
+                return item[maxnum].style.opacity = 0;
+            } else {
+                return item[num - 1].style.opacity = 0;
+            }
+
+        }
+    </script>
+</body>
+
+</html>

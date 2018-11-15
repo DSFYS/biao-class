@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .board {
+            display: inline-block;
+            font-size: 2rem;
+            background: #000;
+            color: red;
+            padding: 10px;
+            width: 130px;
+            line-height: 1;
+            opacity: 1;
+            border: 2px solid crimson;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        .inherit {
+            color: inherit;
+            font-size: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span class="inner"><span class="inherit"></span></span>
+    </div>
+    <script>
+        const board = document.body.querySelector('.board');
+        const inner = board.querySelector('.inner');
+        const inherit = board.querySelector(".inherit");
+        let num = ["贴膜", "aaaa", 'aaaaaaaaa', 'bbbbb'];
+        let size = 0;
+        let isif = true;
+        inner.innerText = num[size];
+        setInterval(function () {
+
+            let hidden = getComputedStyle(inner).opacity === '1';
+            if (hidden) {
+                inner.style.opacity = 0;
+                board.style.borderColor = "transparent";
+            } else {
+                size++;
+                inner.style.opacity = '1';
+                board.style.borderColor = "inherit";
+                if (size >= num.length) {
+                    size = 0;
+                }
+                inner.innerText = num[size];
+            }
+
+        }, 1000)
+    </script>
+</body>
+
+</html>

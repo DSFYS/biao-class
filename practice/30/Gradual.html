@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gradual</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+        .elder{
+        
+        position: relative;
+        }
+
+        .item {
+            position: absolute;
+            opacity: 0;
+            transition: all .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="elder">
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/fff/000?text=A" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/fff/000?text=B" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/fff/000?text=C" alt="">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/1000x500/fff/000?text=D" alt="">
+        </div>
+    </div>
+
+    <script>
+        const item = document.querySelectorAll(".item");
+        let num = 0;
+        let MAX = item.length - 1;
+        console.log(item);
+        stratGame();
+        function stratGame() {
+            show(item[0]);
+            setInterval(function () {
+            loop();
+        }, 500)
+
+        }
+       
+        function loop() {
+            if (num >= item.length) {
+                num = 0;
+            }
+            let prev = getPrev();
+            let next = item[num];
+
+            hide(prev);
+            show(next)
+                ++num;
+        }
+
+        function getPrev() {
+            if (num == 0) {
+                return item[MAX];
+            } else {
+                return item[num - 1];
+            }
+        }
+
+        function hide(el) {
+            if (!el) {
+                return;
+            }
+            el.style.opacity = 0;
+        }
+
+        function show(el) {
+            if (!el) {
+                return;
+            }
+            el.style.opacity = 1;
+        }
+    </script>
+</body>
+
+</html>

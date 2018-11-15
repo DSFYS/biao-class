@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .board {
+            display: inline-block;
+            font-size: 2rem;
+            background: #000;
+            color: red;
+            padding: 10px;
+            width: 130px;
+            line-height: 1;
+            opacity: 1;
+            border: 2px solid crimson;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        .inherit {
+            color: inherit;
+            font-size: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span class="inner"></span>
+    </div>
+    <script>
+        const board = document.body.querySelector('.board');
+        const inner = board.querySelector('.inner');
+        let arr = ['aaaa', 'bbb', 'cccc'];
+        let num = 0;
+        startGame();
+
+        function startGame() {
+            setInterval(function () {
+                toggleText();
+                swell();
+            }, 1000)
+        }
+
+        function isif() {
+            return getComputedStyle(inner).opacity != 0;
+        }
+
+        function toggleText() {
+            inner.style.opacity = isif() ? 0 : 1;
+        }
+
+        function swell() {
+            if (isif()) {
+                num++;
+                if (num >= arr.length) {
+                    num = 0;
+                }
+                inner.innerText = arr[num];
+                
+            }
+        }
+    </script>
+</body>
+
+</html>
