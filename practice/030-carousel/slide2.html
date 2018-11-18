@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slide</title>
+    <style>
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        .container {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slider {
+            position: relative;
+            overflow: hidden;
+            height: 290px;
+        }
+
+        .item {
+            position: absolute;
+            display: block;
+            transition: all .5s;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="slider">
+        <a class="item" href="#">
+            <img src="http://public.biaoyansu.com/frontend/43/A.png" alt="A">
+        </a>
+        <a class="item" href="#">
+            <img src="http://public.biaoyansu.com/frontend/43/B.png" alt="B">
+        </a>
+        <a class="item" href="#">
+            <img src="http://public.biaoyansu.com/frontend/43/C.png" alt="C">
+        </a>
+    </div>
+</div>
+<script>
+    const item = document.querySelectorAll(".item");
+    let maxnum = item.length - 1;
+    item[0].style.opacity = 1;
+    let a = item.length;
+    let num = item.length - 1;
+    setInterval(function () {
+
+        item[num].style.marginLeft = "600px";
+        console.log(num);
+
+        if (item[0].style.marginLeft == "600px") {
+            for (let i = 0; i < item.length; i++) {
+                item[i].style.marginLeft = "0px";
+            }
+        }
+        if (num == 0) {
+            item[maxnum].style.marginLeft = "0px";
+        } else {
+            item[num - 1].style.marginLeft = "0px";
+        }
+        num--;
+        if (num < 0) {
+            num = item.length - 1;
+        }
+    }, 1400)
+</script>
+</body>
+
+</html>
