@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slide</title>
+<style>
+:root {
+  font-family: sans-serif;
+}
+[hidden]{
+display: none !important;
+}
+button {
+  border: 0;
+  padding: 10px;
+  color: #000;
+}
+
+.dropdown {
+  margin-top: 5px;
+  background: #555;
+  position: absolute;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown a:hover {
+  background: rgba(0, 0, 0, .1);
+}
+</style>
+</head>
+<body>
+<button class="toggle">查看更多</button>
+
+<div class="dropdown">
+  <a href="#">扫一扫</a>
+  <a href="#">加好友</a>
+  <a href="#">搜索</a>
+  <a href="#">帮助</a>
+  <a href="#">关于我们</a>
+</div>
+<script>
+const  toggle=document.querySelector(".toggle");
+const dropdown=document.querySelector(".dropdown");
+let isif=true;
+toggle.addEventListener("click",function(e){
+      if(isif){
+          dropdown.style.display='none';
+          isif=false;
+          console.log(isif)
+      }else {
+          dropdown.style.display="inherit"
+                    isif=true;
+                console.log(isif)
+      }
+});
+
+</script>
+</body>
+
+</html>

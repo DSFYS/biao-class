@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gradual</title>
+    <style>
+        div {
+            background: rgba(0, 0, 0, .1);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">a
+
+        <div class="b">b<div class="c">c</div>
+        </div>
+    </div>
+
+    <script>
+        const a = document.querySelector(".a");target
+        const b = document.querySelector(".b");
+        const c = document.querySelector(".c");
+        console.dir(a);
+        a.addEventListener("click", (e) => {
+            console.log(e   )
+            console.log('a')
+        });
+        b.addEventListener("click", (e) => {
+            console.log(e)
+            console.log('b')
+        });
+        c.addEventListener("click", (e) => {
+            console.log(e)
+            console.log('c')
+        });
+    </script>
+
+
+
+</body>
+
+</html>
