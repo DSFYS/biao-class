@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5760e4b0-516d-44c5-a869-0d46516bcb0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/031-DOM/DOM1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/031-DOM/DOM2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/033-event/event-targer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/033-event/label-onclick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/033-event/event-targer.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/033-event/event-targer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +15,7 @@
     <session id="-1736557685">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.134" value="1" />
@@ -30,12 +26,13 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="18" />
           <entry key="iml" value="1" />
         </counts>
       </usages-collector>
@@ -44,18 +41,18 @@
           <entry key="HTML" value="10" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Svelte" value="6" />
+          <entry key="Svelte" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3807" />
+          <entry key="html" value="3826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3154" />
-          <entry key="Svelte" value="653" />
+          <entry key="Svelte" value="672" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -77,16 +74,25 @@
         <entry file="file://$PROJECT_DIR$/practice/033-event/label-onclick.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/033-event/event-targer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-80">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/033-event/event-targer.html">
+        <entry file="file://$PROJECT_DIR$/practice/034-postion-size/test.1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="257">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -115,6 +121,7 @@
         <option value="$PROJECT_DIR$/practice/031-DOM/DOM2.html" />
         <option value="$PROJECT_DIR$/practice/033-event/label-onclick.html" />
         <option value="$PROJECT_DIR$/practice/033-event/event-targer.html" />
+        <option value="$PROJECT_DIR$/practice/034-postion-size/test.1.html" />
       </list>
     </option>
   </component>
@@ -144,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,14 +168,13 @@
               <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="033-event" type="462c0819:PsiDirectoryNode" />
+              <item name="034-postion-size" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,11 +233,12 @@
       <workItem from="1542590440163" duration="3004000" />
       <workItem from="1542675371826" duration="5804000" />
       <workItem from="1542697853537" duration="2182000" />
+      <workItem from="1542937070007" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38839000" />
+    <option name="totallyTimeSpent" value="39026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,17 +250,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -264,6 +271,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -350,14 +358,21 @@
     <entry file="file://$PROJECT_DIR$/practice/033-event/label-onclick.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/033-event/event-targer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="-80">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/034-postion-size/test.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>

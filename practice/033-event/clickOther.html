@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        [hidden] {
+            display: none !important;
+        }
+
+        a {
+            display: block;
+            color: aliceblue;
+            background: #000000;
+            width: 100px;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background: #666666;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="trigger">更多</button>
+    <br>
+    <div class="dropdown">
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+        <a href="#">D</a>
+    </div>
+    <script>
+        const trigger = document.querySelector(".trigger");
+        const dropdown = document.querySelector(".dropdown");
+        console.log('b');
+        document.body.addEventListener("click", (e) => {
+            if (e.target === trigger) {
+                dropdown.hidden = !dropdown.hidden;
+                return;
+            }
+
+            if (!e.target.closest('.dropdown')) {
+                console.log(e.target);
+                dropdown.hidden = true;
+            } 
+            console.log(e.target);
+        })
+    </script>
+</body>
+
+</html>

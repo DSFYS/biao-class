@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        [hidden] {
+            display: none;
+        }
+
+        .cover {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, .6);
+            z-index: 100;
+        }
+
+        .popup {
+            position: fixed;
+            z-index: 1000;
+            padding: 10px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="toggle">收藏</button>
+    <div class="popup">确定是否收藏</div>
+    <div class="desc">
+        orem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+    </div>
+    <script>
+        let toggle, popup;
+        boot(".toggle", ".popup")
+
+        function boot(toggle, popup) {
+            let cover;
+            toggle = document.querySelector(toggle);
+            popup = document.querySelector(popup);
+            initPopup();
+            initCover();
+            setVisible(true)
+            setOpen();
+            setClose()
+
+
+            function setVisible(visible) {
+                cover.hidden = popup.hidden = visible;
+            }
+
+            function initPopup() {
+                popup.classList.add('popup');
+            }
+
+            function initCover() {
+                cover = document.createElement("div");
+                cover.classList.add("cover");
+                document.body.appendChild(cover)
+            }
+
+            function setOpen() {
+                toggle.addEventListener("click", () => {
+                    setVisible(false);
+                    console.log("1")
+                    coverPosition();
+                })
+            }
+
+            function setClose() {
+                cover.addEventListener("click", () => {
+                    setVisible(true);
+                })
+            }
+            function coverPosition(){
+                let windowwidth=window.innerWidth;
+                let width=popup.offsetWidth;
+                popup.style.left=(windowwidth/2-width/2)+"px";
+            }
+        }
+    </script>
+</body>
+
+</html>
