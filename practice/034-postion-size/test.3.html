@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        [hidden] {
+            display: none;
+        }
+
+        .cover {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, .6);
+            z-index: 100;
+        }
+
+        .popup {
+            position: fixed;
+            z-index: 1000;
+            padding: 10px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="toggle">收藏</button>
+    <div class="popup">确定是否收藏</div>
+    <div class="desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere orem ipsum dolor
+        sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus
+        nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate
+        voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus
+        necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae
+        voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam
+        natus necessitatibus nihil quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati
+        vitae voluptate voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+    </div>
+    <script>
+        let toggle, popup;
+        const defaultConfig = {
+            position: 'center',
+            x: 0,
+            y: 0,
+            hiddenKey: 'Escape',
+        };
+        boot(".toggle", ".popup")
+        // 弹窗函数(监听元素,显示元素,x轴偏移,y轴偏移)
+        function boot(toggleSelector, popupSelector, config = {}) {
+            let customize;
+            // 定位元素位置
+            toggle = document.querySelector(toggleSelector);
+            popup = document.querySelector(popupSelector);
+            // 自定义传参
+            config(config);
+            // 添加显示元素样式
+            initPopup();
+            // 在body添加遮罩
+            initCover();
+            // 默认设置为隐藏
+            setVisible(true);
+            // 绑定打开事件
+            bindOpen();
+            // 绑定关闭事件
+            bindClose();
+
+            function config(config) {
+                customize = Object.assign({}, defaultConfig, config);
+            }
+            /*
+             *绑定打开显示事件
+             *
+             *点击遮罩,显示元素显示
+             *定位显示元素位置
+             */
+            function bindOpen() {
+                // 监听元素绑定点击事件
+                toggle.addEventListener("click", () => {
+                    // 显示
+                    setVisible(false);
+                    // 定位显示元素位置
+                    PopupPosition(customize.x, customize.y, customize.position)
+                })
+            }
+            /*
+             *绑定关闭显示事件
+             *
+             *点击遮罩,显示元素关闭
+             *绑定按键事件关闭
+             */
+            function bindClose() {
+                // 绑定点击事件关闭
+                cover.addEventListener("click", () => {
+                    // 隐藏
+                    setVisible(true);
+                })
+                // 绑定安检事件
+                document.body.addEventListener("keyup", (e) => {
+                    // 判断按键
+                    if (e.key === customize.hiddenKey) {
+                        // 隐藏
+                        setVisible(true);
+                    }
+                })
+            }
+            /*
+             *添加遮罩元素
+             *
+             *追加类名为cover的显示遮罩
+             */
+            function initCover() {
+                // 添加div
+                cover = document.createElement("div");
+                // div添加类名以及样式
+                cover.classList.add("cover");
+                // 在body上追加此元素
+                document.body.appendChild(cover);
+                console.log(cover)
+
+            }
+            /*
+             *添加显示元素样式
+             *
+             *添加popup类名在显示元素
+             */
+            function initPopup() {
+                popup.classList.add("popup");
+            }
+            /*
+             *设置显示元素和遮罩隐藏
+             */
+            function setVisible(visible) {
+                // 当传参为true便显示，false便隐藏
+                popup.hidden = cover.hidden = visible;
+            }
+            /*
+             *定位显示元素位置
+             *
+             */
+            function PopupPosition(x = 0, y = 0, postion = "center") {
+                // 获取window宽高
+                windowW = window.innerWidth;
+                windowH = window.innerHeight;
+                // 获取显示元素宽高
+                width = popup.offsetWidth;
+                height = popup.offsetHeight
+                // 当x，y为0时定位为中心
+                if (postion.match("center") == null) {
+                    if (postion.match("top") == null && postion.match("bottom") == null) {
+                        postion += "-centerY";
+                    } else if (postion.match("left") == null && postion.match("right") == null) {
+                        postion += "-centerX";
+                    }
+                    if (postion.match("top") !== null) {
+                        popup.style.top = "0px";
+                        console.log("top")
+                    }
+                    if (postion.match("bottom") !== null) {
+                        popup.style.bottom = "0px";
+                    }
+                    if (postion.match("left") !== null) {
+                        popup.style.left = "0px";
+                        console.log("left")
+                    }
+                    if (postion.match("right") !== null) {
+                        popup.style.right = "0px";
+                    }
+                    if (postion.match("centerX") !== null) {
+                        popup.style.left = ((windowW / 2 - width / 2) + x) + "px";
+                    }
+                    if (postion.match("centerY") !== null) {
+                        popup.style.top = ((windowH / 2 - height / 2) + y) + "px";
+                    }
+                } else {
+                    popup.style.left = ((windowW / 2 - width / 2) + x) + "px";
+                    popup.style.top = ((windowH / 2 - height / 2) + y) + "px";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
