@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+        }
+
+        .dropdown {
+            min-width: 5em;
+            display: inline-block;
+            border: 2px solid;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="dropdown" class="dropdown"></div>
+    <script>
+        let dropdown = document.querySelector(".dropdown");
+        console.log(dropdown)
+        let list = [
+            {
+                text: 'a',
+                href: 'http://a.cn',
+            },
+            {
+                text: 'b',
+                href: 'http://biaoyansu.com',
+            },
+            {
+                text: 'c',
+                href: 'http://chaoshi.tmall.com',
+            },
+            {
+                text: 'd',
+                href: 'http://douban.com',
+            },
+        ];
+        boot();
+        function boot(){
+            list.forEach(i=>{
+                let a=document.createElement("a")
+                a.innerText=i.text;
+                a.href=i.href;
+                dropdown.appendChild(a)
+            })
+        }
+     
+
+        // function boot() {
+        //     list.forEach(it => {
+        //         // 为每条数据创建元素
+        //         let a = document.createElement('a');
+        //         // 设置元素内容和属性
+        //         a.innerText = it.text;
+        //         a.href = it.href; // Property，隐性属性
+
+        //         // 将元素追加到根元素上
+        //         dropdown.appendChild(a);
+        //     });
+
+            
+        // }
+
+    </script>
+</body>
+
+</html>

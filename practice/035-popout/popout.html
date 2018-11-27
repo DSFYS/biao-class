@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .contain {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        button {
+            font-size: inherit;
+            padding: 5px;
+            border-radius: 0;
+            background: #bbb;
+            border: 0;
+        }
+
+        .popout {
+            padding: 10px;
+            background: #ffffff;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <button data-desc="YO yo">click</button>
+    </div>
+    <div class="contain">
+        <button data-desc="HO ho">click</button>
+    </div>
+
+    <script>
+        let clicked = document.querySelectorAll("[data-desc]");
+        let clicks=new Set();
+        boot();
+        function boot() {
+            bindEvents();
+        }
+        function bindEvents() {
+            document.addEventListener("click", (e) => {
+                const parenName = "contain";
+                let newList = [];
+                const el = e.target
+                let paren = el.parentNode;
+                let desc = el.dataset.desc;
+                let parenClass = paren.classList;
+                if (desc) {
+                    classTraversal(parenClass,newList)
+                    if (newList.indexOf(parenName) >= 0) {
+                        show(el,desc,paren);
+                        clicks.add(el)
+                    }
+                }else{
+                    hidden();
+                }
+
+            })
+        }
+        function classTraversal(parenClass,newList) {
+            for (let i = 0; i < parenClass.length; i++) {
+                newList.push(parenClass[i]);
+            }
+        }
+        function show(el,desc,paren) {
+            if (!el.$popup) {
+               let popup = document.createElement("div");
+                popup.classList.add("popout");
+                popup.innerText = desc;
+                el.$popup = "div";
+                paren.appendChild(popup);
+                el.$popup.hidden=true;
+            } else {
+                el.$popup.hidden=true;
+            }
+        }
+        function hidden(){
+            clicks.forEach(el=>{
+              
+            })
+        }
+    </script>
+</body>
+
+</html>
