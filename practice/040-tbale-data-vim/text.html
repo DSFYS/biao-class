@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tbale</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            text-align: left;
+            border: 1px solid;
+            padding: .5em;
+        }
+
+        .toolbar {
+            margin: .5em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="table">
+
+    </table>
+    <script src="table.js"></script>
+    <script>
+        "use strict"
+        let head = {
+            name: "名字",
+            sex: "性别",
+            age: "年龄"
+        }
+
+        let list = [
+            {
+                name: "wanghuahau",
+                sex: "male",
+                age: "18"
+            }, {
+                name: "lishuandan",
+                sex: "male",
+                age: "19"
+            }, {
+                name: "zhaokeshuang",
+                sex: "felmale",
+                age: "20"
+            },
+        ];
+
+        let ctable = document.querySelector(".table");
+        let table, structure, data, tbody, thead;
+        boot(ctable, head, list)
+        /**
+      *
+      *
+      * @param {*} table
+      * @param {*} range
+      * @param {*} arr
+      */
+        function boot(tableSelector, struct, arr) {
+            table = tableSelector;
+            structure = struct;
+            data = arr;
+            create();
+            renderHead();
+            renderBody();
+        }
+        function create() {
+            thead = document.createElement("thead");
+            tbody = document.createElement("tbody");
+            table.appendChild(thead);
+            table.appendChild(tbody);
+        }
+        function renderHead() {
+            let html = ``;
+            for (let key in structure) {
+                html += `<th>${structure[key]}</th>`
+                thead.innerHTML = html;
+            }
+        }
+        function renderBody() {
+            data.forEach(it => {
+                let html = ``;
+                let tr = document.createElement("tr");
+                for (let key in structure) {
+                    html += `<td>${it[key] || "-"}</td>`;
+                    console.log(html)
+                }
+                tr.innerHTML = html;
+                tbody.appendChild(tr);
+            });
+           
+        }
+    </script>
+</body>
+
+</html>

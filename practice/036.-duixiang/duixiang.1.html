@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+        }
+
+        .btn-list {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .btn-list button {
+            width: 24.5%;
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            font-size: 15px;
+        }
+
+        button {
+            border-radius: 0;
+            background: transparent;
+            border: 1px solid black;
+            outline: none;
+        }
+
+        button:hover {
+            background: rgb(0, 100, 255);
+            color: #ffffff;
+        }
+
+        th,
+        td,
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="btn-list">
+            <button data-max="300" data-min="0">全部</button>
+            <button data-max="300" data-min="200">学霸</button>
+            <button data-max="200" data-min="0">学渣</button>
+            <button class="addnew">新增</button>
+        </div>
+        <table class="table">
+            <thead>
+                <th>名字</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>学号</th>
+                <th>数学</th>
+                <th>英语</th>
+                <th>语文</th>
+                <th>总分</th>
+                <th>操作</th>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script>
+        let newList = [{ name: "wanghuahua", gender: "男", age: "17", ID: '00234', math: "24", english: "76", chinese: "88" },
+        { name: "lisuandan", gender: "女", age: "17", ID: '00284', math: "78", english: "96", chinese: "58" },
+        { name: "zhaokeshuang", gender: "女", age: "18", ID: '00214', math: "98", english: "34", chinese: "67" }
+            , { name: "beibeishan", gender: "男", age: "16", ID: '00432', math: "66", english: "76", chinese: "44" }
+            , { name: "liuyuwne", gender: "女", age: "17", ID: '00987', math: "34", english: "89", chinese: "56" }];
+        const tbody = document.getElementById("tbody");
+        const listLength = newList.length;
+        let target = false;
+        let nums = 0;
+        boot();
+        function boot() {
+            read();
+            document.addEventListener("click", (e) => {
+                target = e.target;
+                if (target.dataset.max && target.dataset.min) {
+                    tbody.innerHTML="";
+                    filter(target.dataset.max, target.dataset.min);
+                }
+            })
+        }
+        function read() {
+            newList.forEach((it, i) => {
+                let totalScore = parseInt(it.math) + parseInt(it.english) + parseInt(it.chinese);
+                let tr = document.createElement("tr");
+                addElement(it, i, totalScore, tr);
+            })
+        }
+        function filter(max, min) {
+            newList.forEach((it, i) => {
+                let totalScore = parseInt(it.math) + parseInt(it.english) + parseInt(it.chinese);
+                let tr = document.createElement("tr");
+                if (target !== false) {
+                    if (max >= totalScore && totalScore >= min) {
+                        addElement(it, i, totalScore, tr);
+                    }
+                }
+            })
+        }
+        function addElement(it, i, totalScore, tr) {
+            let a = tr.innerHTML = `
+                                <td>${it.name}</td>
+                                <td>${it.gender}</td>
+                                <td>${it.age}</td>
+                                <td>${it.ID}</td>
+                                <td>${it.math}</td>
+                                <td>${it.english}</td>
+                                <td>${it.chinese}</td>
+                                <td>${totalScore}</td>
+                                <td><button class="deleThisRow">删除</td>  `
+            let dele = tr.querySelector(".deleThisRow");
+            tbody.appendChild(tr);
+            dele.addEventListener("click", () => {
+                newList.splice(i, 1);
+                tr.remove();
+                tbody.innerHTML="";
+                read();
+                console.log(newList);
+            })
+        }
+
+    </script>
+</body>
+
+</html>

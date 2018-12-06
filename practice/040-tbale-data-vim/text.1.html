@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tbale</title>
+    <style>
+        :root {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            text-align: left;
+            border: 1px solid;
+            padding: .5em;
+        }
+
+        .toolbar {
+            margin: .5em 0;
+        }
+        tr.active{
+            background: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="table">
+
+    </table>
+    <script src="table.js"></script>
+    <script>
+        "use strict"
+        let head = {
+            name: "名字",
+            sex: "性别",
+            age: "年龄"
+        }
+
+        let list = [
+            {
+                name: "wanghuahau",
+                sex: "male",
+                age: "18"
+            }, {
+                name: "lishuandan",
+                sex: "male",
+                age: "19"
+            }, {
+                name: "zhaokeshuang",
+                sex: "felmale",
+                age: "20"
+            },
+        ];
+        let functions = {
+            rovem: function (tr,index) {
+                console.log(tr)
+                console.log(list[index].sex)
+            },
+            add: function (tr) {
+                let klass=tr.classList;
+                klass.contains("active")?klass.remove("active"):klass.add("active");
+            }
+        }
+        let ctable = document.querySelector(".table");
+        let table, structure, data, tbody, thead, append;
+        boot(ctable, head, list, functions)
+        function boot(tableSelector, struct, arr, buttonfun) {
+            table = tableSelector; structure = struct; data = arr; append = buttonfun;
+            create();
+            prepareThead();
+            prepareTbody();
+        }
+        function create() {
+            thead = document.createElement("thead");
+            tbody = document.createElement("tbody");
+            table.appendChild(thead)
+            table.appendChild(tbody)
+        }
+        function prepareThead() {
+            let html = ``;
+            for (let key in structure) {
+                html += `<th>${structure[key]}</th>`;
+            }
+            if (append)
+                html += `<th>操作</th>`
+            thead.innerHTML = html;
+        }
+        function prepareTbody() {
+            data.forEach((it,index) => {
+                let html = ``;
+                let tr = document.createElement("tr");
+                for (let key in structure) {
+                    html += `<td>${it[key] || "-"}</td>`;
+                }
+                if (append) {
+                    let btnHtml = ``;
+                    for (let key in append) {
+                        btnHtml += `<button class="${key}">${key}</button>`
+                    }
+                    html += `<td>${btnHtml}</td>`
+                }
+                tr.innerHTML = html;
+                if (append) {
+                    for (let key in append) {
+                        tr.querySelector("."+key).addEventListener("click",()=>{
+                            append[key](tr,index);
+                        })
+                    }
+                }
+                tbody.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+
+</html>
