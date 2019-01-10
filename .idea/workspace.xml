@@ -6,15 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5760e4b0-516d-44c5-a869-0d46516bcb0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/042-LoanCalculation/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/042-LoanCalculation/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/043-vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/lib/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/views/article.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/views/manag.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/045-bolg/src/views/post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/admin-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/amdin-cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/amdin-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/conact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/v2ex/thread.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,40 +42,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/lib/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/views/manag.vue">
+        <entry file="file://$PROJECT_DIR$/project/v2ex/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="43" />
-              <folding>
-                <element signature="n#form#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-              </folding>
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/views/post.vue">
+        <entry file="file://$PROJECT_DIR$/project/v2ex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="229">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/App.vue">
+        <entry file="file://$PROJECT_DIR$/project/v2ex/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            <state relative-caret-position="276">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -137,6 +132,18 @@
         <option value="$PROJECT_DIR$/practice/045-bolg/src/views/article.vue" />
         <option value="$PROJECT_DIR$/practice/045-bolg/src/views/manag.vue" />
         <option value="$PROJECT_DIR$/practice/045-bolg/src/views/post.vue" />
+        <option value="$PROJECT_DIR$/project/v2ex/thread.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/saingUp.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/login.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/admin.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/amdin-user.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/amdin-cat.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/me.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/about.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/conact.html" />
+        <option value="$PROJECT_DIR$/project/v2ex/css/global.css" />
+        <option value="$PROJECT_DIR$/project/v2ex/css/main.css" />
+        <option value="$PROJECT_DIR$/project/v2ex/index.html" />
       </list>
     </option>
   </component>
@@ -146,10 +153,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="235" />
+    <option name="y" value="324" />
+    <option name="width" value="917" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -160,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,33 +177,26 @@
             <path>
               <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="045-bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="v2ex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="045-bolg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="biao-class" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="045-bolg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="v2ex" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -233,8 +232,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js (1)">
-    <configuration name="DOM1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/biao-class/practice/031-DOM/DOM1.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/biao-class/project/v2ex/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/biao-class/practice/043-vue/index.html" useBuiltInWebServerPort="true">
@@ -251,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="Node.js.main.js" />
-        <item itemvalue="JavaScript Debug.DOM1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -299,11 +298,12 @@
       <workItem from="1546497099875" duration="16107000" />
       <workItem from="1546569064173" duration="9994000" />
       <workItem from="1546744194724" duration="8210000" />
+      <workItem from="1546938536886" duration="7014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152679000" />
+    <option name="totallyTimeSpent" value="159693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,10 +315,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.16517857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27232143" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +333,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.2723077" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.2723077" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -391,72 +391,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/biao-class.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/Gradual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/slidingCarousel.html" />
-    <entry file="file://$PROJECT_DIR$/practice/007-convert-all-html/douban.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/sliding carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/Gradual.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/slide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/031-DOM/DOM1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/slide2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/031-DOM/DOM2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/030-carousel/changeColor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
     <entry file="file://$PROJECT_DIR$/practice/034-postion-size/test.1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -617,6 +551,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/views/post.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -624,10 +565,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/views/post.vue">
+    <entry file="file://$PROJECT_DIR$/project/v2ex/thread.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/admin-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/amdin-cat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/amdin-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/me.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/conact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/023-css-grid/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="153" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/css/home.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/v2ex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

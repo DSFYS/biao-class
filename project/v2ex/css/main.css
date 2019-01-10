@@ -1,0 +1,14 @@
+
+body {
+    max-width: 75rem;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.navbaer-global{
+    vertical-align: super;
+}
+main{
+    display: flex;
+}
