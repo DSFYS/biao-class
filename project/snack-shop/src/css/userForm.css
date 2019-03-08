@@ -1,0 +1,19 @@
+.form-conter{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem .7rem;
+}
+
+.form-conter{
+    max-width: 600px;
+}
+.btn-list .el-button {
+    padding: 1rem;
+}
+.btn-list .el-col:last-child{
+    text-align: right;
+}
+.btn-list{
+    padding: 0rem 1rem;
+}

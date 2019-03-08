@@ -19,6 +19,7 @@
   "homepage": "https://github.com/DSFYS/biao-class#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "vue": "^2.6.7",
     "vue-router": "^3.0.2"
   }
 }
