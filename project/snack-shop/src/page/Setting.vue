@@ -1,42 +1,83 @@
 <template>
-    <el-row>
-        <el-col :span="4">
-            <el-menu
-                    default-active="2"
-                    class="el-menu-vertical-demo"
-                    @open="handleOpen"
-                    @close="handleClose">
-                <el-submenu index="1">
-                    <template slot="title">
-                        <i class="el-icon-location"></i>
-                        <span>导航一</span>
-                    </template>
-                    <el-menu-item-group>
-                        <template slot="title">分组一</template>
-                        <el-menu-item index="1-1">选项1</el-menu-item>
-                        <el-menu-item index="1-2">选项2</el-menu-item>
-                    </el-menu-item-group>
-                    <el-menu-item-group title="分组2">
-                        <el-menu-item index="1-3">选项3</el-menu-item>
-                    </el-menu-item-group>
-                    <el-submenu index="1-4">
-                        <template slot="title">选项4</template>
-                        <el-menu-item index="1-4-1">选项1</el-menu-item>
-                    </el-submenu>
-                </el-submenu>
-                <el-menu-item index="2">
-                    <i class="el-icon-menu"></i>
-                    <span slot="title">导航二</span>
-                </el-menu-item>
-                <el-menu-item index="3" >
-                    <i class="el-icon-document"></i>
-                    <span slot="title">导航三</span>
-                </el-menu-item>
-                <el-menu-item index="4">
-                    <i class="el-icon-setting"></i>
-                    <span slot="title">导航四</span>
-                </el-menu-item>
-            </el-menu>
-        </el-col>
-    </el-row>
+    <div>
+        <div><h2>关于我的</h2></div>
+        <div>
+            <div class="info-box">
+
+                <el-row>
+                    <div class="attribute">
+                        <el-col :span="4">
+                            姓名
+                        </el-col>
+                        <el-col :span="20">
+                            <span>杨西峰</span>
+                        </el-col>
+                    </div>
+                    <div class="attribute">
+                        <el-col :span="4">
+                            昵称
+                        </el-col>
+                        <el-col :span="20">
+                            rwe
+                            <div class="revise-btn">
+                                <el-button type="text primary">
+                                    修改昵称
+                                </el-button>
+                            </div>
+                        </el-col>
+                        <div class="revise-form">
+                            <el-row>
+                                <div class="item">
+                                    <el-col :span="4">
+                                        昵称
+                                    </el-col>
+                                    <el-col :span="20">
+                                        <input placeholder="tainxi"></input>
+                                    </el-col>
+                                </div>
+                                <div class="buttonn-list">
+                                    <el-col class="text-center" :span="12">
+                                        <el-button type="primary">保存</el-button>
+                                    </el-col>
+                                    <el-col class="text-center" :span="12">
+                                        <el-button>取消</el-button>
+                                    </el-col>
+                                </div>
+                            </el-row>
+                        </div>
+                    </div>
+                </el-row>
+            </div>
+        </div>
+    </div>
 </template>
+<style>
+    .attribute {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .attribute .revise-btn {
+        display: inline-block;
+        min-width: 90%;
+        text-align: right;
+    }
+
+    .attribute .revise-btn .el-button {
+        padding: 0;
+    }
+
+    .revise-form {
+        margin-top: .5rem;
+        padding: 2rem;
+    }
+    .revise-form .item{
+        margin-bottom: 3rem;
+    }
+    input {
+        padding: 2px;
+        width: 100%;
+    }
+
+
+</style>
