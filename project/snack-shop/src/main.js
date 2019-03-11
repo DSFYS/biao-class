@@ -17,6 +17,10 @@ import Amdin from "./page/admin/Amdin"
 import AmdinUser from "./page/admin/User"
 import AmdinPay from "./page/admin/Pay"
 import AmdinProduct from "./page/admin/Product"
+import api from "./lib/api"
+
+
+window.api=api;
 Vue.config.productionTip = false
 Vue.use(Router)
 Vue.use(ElementUI)

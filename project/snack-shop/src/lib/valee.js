@@ -220,6 +220,14 @@ export let is = {
         return true;
     },
 
+    password(value){
+        let re=/^(?=.*\\d)(?=.*[a-zA-Z])(?=.*[\\W_]).{8,20}$/;
+        if (!re.test(value))
+            return false;
+        return true;
+    },
+
+
     /**
      * 是否可以匹配正则
      * @param value
