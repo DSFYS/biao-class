@@ -6,17 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5760e4b0-516d-44c5-a869-0d46516bcb0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/My.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/Security.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/admin/Pay.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/admin/Product.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/snack-shop/src/page/admin/User.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/snack-shop/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/snack-shop/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/snack-shop/src/page/Order.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/snack-shop/src/page/Order.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/snack-shop/src/page/Setting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/snack-shop/src/page/Setting.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,22 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#196#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/snack-shop/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+            <state relative-caret-position="45">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -63,61 +41,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Pay.vue">
+        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/User.vue">
+        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Signup.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="434">
+              <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/lib/valee.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3270">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
               <folding>
-                <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Product.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/My.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -136,7 +84,6 @@
       <find>ex</find>
       <find>matched</find>
       <find>readc</find>
-      <find>email</find>
       <find>currentDate</find>
       <find>other</find>
       <find>hover</find>
@@ -147,6 +94,10 @@
       <find>f</find>
       <find>form</find>
       <find>name</find>
+      <find>email</find>
+      <find>verification_code</find>
+      <find>mail</find>
+      <find>phone</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/my-bolg/src/css/admin.css" />
-        <option value="$PROJECT_DIR$/project/my-bolg/src/main.js" />
         <option value="$PROJECT_DIR$/project/my-bolg/src/App.vue" />
         <option value="$PROJECT_DIR$/project/my-bolg/src/page/add.vue" />
         <option value="$PROJECT_DIR$/project/my-bolg/src/js/api.js" />
@@ -194,19 +143,21 @@
         <option value="$PROJECT_DIR$/project/snack-shop/src/App.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/css/userForm.css" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/Login.vue" />
-        <option value="$PROJECT_DIR$/project/snack-shop/src/page/Signup.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/security.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/Security.vue" />
-        <option value="$PROJECT_DIR$/project/snack-shop/src/page/My.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/Setting.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/Order.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/user.vue" />
-        <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/Product.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/pay.vue" />
-        <option value="$PROJECT_DIR$/project/snack-shop/src/main.js" />
-        <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue" />
         <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/User.vue" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/Pay.vue" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/Product.vue" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/page/My.vue" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/main.js" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/lib/valee.js" />
+        <option value="$PROJECT_DIR$/project/snack-shop/src/page/Signup.vue" />
       </list>
     </option>
   </component>
@@ -216,7 +167,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1504" />
     <option name="height" value="846" />
   </component>
@@ -228,8 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +212,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="snack-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
@@ -270,15 +221,6 @@
               <item name="snack-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biao-class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="biao-class" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="snack-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,10 +232,11 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552190657962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552286108954" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Vue&#10;HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -404,12 +347,19 @@
       <workItem from="1552092553904" duration="5646000" />
       <workItem from="1552103957041" duration="44000" />
       <workItem from="1552115191689" duration="1102000" />
-      <workItem from="1552188227905" duration="2081000" />
+      <workItem from="1552188227905" duration="3289000" />
+      <workItem from="1552197158305" duration="291000" />
+      <workItem from="1552202846154" duration="2962000" />
+      <workItem from="1552208064042" duration="3007000" />
+      <workItem from="1552267109725" duration="11414000" />
+      <workItem from="1552292289235" duration="155000" />
+      <workItem from="1552297076443" duration="153000" />
+      <workItem from="1552304853832" duration="85000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211940000" />
+    <option name="totallyTimeSpent" value="231215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,10 +371,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1504" height="846" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1504" height="846" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20519836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22161423" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
+      <window_info id="npm" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32776934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18302387" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.3183024" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.26881722" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2106703" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,39 +437,6 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20519836" />
-      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50163937" side_tool="true" weight="0.24281392" />
-      <window_info id="npm" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32776934" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18302387" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.21750663" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.26881722" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32923076" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,9 +448,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/BlogManag/src/main.js" />
-    <entry file="file://$PROJECT_DIR$/project/BlogManag/src/page/manag.vue" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.vue" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.vue" />
     <entry file="file://$PROJECT_DIR$/practice/045-bolg/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/snack-shop/src/components/Navbar.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -731,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Signup.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Product.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -763,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#196#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Order.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -783,38 +705,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/main.js">
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="9" selection-end-line="101" selection-end-column="9" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Pay.vue">
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#196#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/My.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Pay.vue">
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Pay.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
@@ -824,27 +742,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Setting.vue">
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/User.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Product.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="510">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/User.vue">
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/My.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Setting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/lib/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17570" column="17" selection-start-line="17570" selection-start-column="17" selection-end-line="17570" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/admin/Amdin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/lib/valee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3270">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/snack-shop/src/page/Signup.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
         </state>
       </provider>
     </entry>
