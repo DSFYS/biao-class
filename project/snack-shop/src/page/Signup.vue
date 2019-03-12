@@ -8,13 +8,13 @@
                 <el-tab-pane label="邮箱" name="mail">
                     <el-form-item label="邮箱">
                         <el-input v-model="form.mail"></el-input>
-                        <div class="errMessage" v-for="item in this.formerr.mail">{{item}}</div>
+                        <div class="errMessage" v-for="item in this.formErr.mail">{{item}}</div>
                     </el-form-item>
                 </el-tab-pane>
                 <el-tab-pane label="手机号" name="phone">
                     <el-form-item label="手机号">
                         <el-input v-model="form.phone"></el-input>
-                        <div class="errMessage" v-for="item in this.formerr.phone">{{item}}</div>
+                        <div class="errMessage" v-for="item in this.formErr.phone">{{item}}</div>
 
                     </el-form-item>
                 </el-tab-pane>
@@ -26,16 +26,16 @@
                         <span v-else>获取验证码</span>
                     </el-button>
                 </el-input>
-                <div class="errMessage" v-for="item in this.formerr.verification_code">{{item}}</div>
+                <div class="errMessage" v-for="item in this.formErr.verification_code">{{item}}</div>
             </el-form-item>
             <el-form-item label="密码">
                 <el-input v-model="form.password" type="password"></el-input>
-                <div class="errMessage" v-for="item in this.formerr.password">{{item}}</div>
+                <div class="errMessage" v-for="item in this.formErr.password">{{item}}</div>
 
             </el-form-item>
             <el-form-item label="重复密码">
                 <el-input v-model="form.Repeatpass" type="password"></el-input>
-                <div class="errMessage" v-for="item in this.formerr.Repeatpass">{{item}}</div>
+                <div class="errMessage" v-for="item in this.formErr.Repeatpass">{{item}}</div>
 
             </el-form-item>
 
@@ -77,7 +77,7 @@
                 codeCountdown: 0,
                 only: true,
                 code: "",
-                formerr: {
+                formErr: {
                     mail: [],
                     phone: [],
                     password: [],
@@ -86,10 +86,10 @@
                 }
             }
         },
-        methods: {
+            methods: {
             errmess() {
-                for (let item in this.formerr) {
-                    let arr = this.formerr[item];
+                for (let item in this.formErr) {
+                    let arr = this.formErr[item];
                     arr.splice(0, arr.length)
 
                 }
@@ -103,11 +103,11 @@
                 this.verification("Repeatpass", "", "重复密码", "", false);
                 this.verification("verification_code", "", "验证码", "", false);
                 if (this.form.Repeatpass != this.form.password) {
-                    this.formerr.Repeatpass.push("两次密码不一致");
+                    this.formErr.Repeatpass.push("两次密码不一致");
                     this.only = false;
                 }
                 if (this.form.verification_code != this.code) {
-                    this.formerr.verification_code.push("验证码错误")
+                    this.formErr.verification_code.push("验证码错误")
                     this.only = false;
                 }
 
@@ -115,13 +115,13 @@
             },
             verification(object, method, val, message, Switch) {
                 if (is.required(this.form[object]) != true) {
-                    this.formerr[object].push(val + "为必填项");
+                    this.formErr[object].push(val + "为必填项");
                     this.only = false
                 }
                 if (Switch == null || Switch == true) {
                     if (is[method](this.form[object]) != true) {
                         this.only = false
-                        this.formerr[object].push(message)
+                        this.formErr[object].push(message)
                     }
                 } else {
                     return;
