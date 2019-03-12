@@ -221,7 +221,7 @@ export let is = {
     },
 
     password(value){
-        let re=/^(?=.*\\d)(?=.*[a-zA-Z])(?=.*[\\W_]).{8,20}$/;
+        let re=/^[\w_-]{6,16}$/;
         if (!re.test(value))
             return false;
         return true;
